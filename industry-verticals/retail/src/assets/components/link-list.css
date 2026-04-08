@@ -5,15 +5,43 @@
   h4,
   h5,
   h6 {
-    @apply text-accent mb-4.5 text-lg;
+    @apply text-primary mb-4 text-base font-semibold md:mb-5 md:text-lg;
   }
 
   ul {
     @apply flex flex-row flex-wrap gap-4;
   }
 
+  a {
+    @apply text-foreground-light transition-colors;
+  }
+
   a:hover {
-    @apply underline;
+    @apply text-accent underline;
+  }
+}
+
+/* Footer (navy band): light text for link columns */
+.footer-site .link-list {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mb-4 text-sm font-semibold tracking-wide text-white normal-case;
+  }
+
+  a {
+    @apply text-white/85 no-underline;
+  }
+
+  a:hover {
+    @apply text-white underline;
+  }
+
+  ul {
+    @apply flex-col gap-3;
   }
 }
 

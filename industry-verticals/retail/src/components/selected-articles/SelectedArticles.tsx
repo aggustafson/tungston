@@ -149,7 +149,7 @@ export const Default = (props: CarouselProps) => {
                                         </h6>
                                       </div>
                                     </div>
-                                    <div className="bg-accent inline-block p-2">
+                                    <div className="bg-primary inline-block rounded-sm px-2.5 py-1 text-xs font-semibold text-white uppercase">
                                       <ArrowRight
                                         size={16}
                                         strokeWidth={1}

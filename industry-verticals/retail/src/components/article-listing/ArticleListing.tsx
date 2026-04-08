@@ -90,7 +90,7 @@ export const Default = (props: ArticleListingProps) => {
           {paginatedArticles.map((article) => (
             <article key={article.id} className="space-y-4">
               {/* Image */}
-              <div className="relative aspect-3/2 w-full overflow-hidden rounded-lg md:aspect-9/4">
+              <div className="border-border relative aspect-3/2 w-full overflow-hidden rounded-sm border shadow-sm md:aspect-9/4">
                 <ContentSdkImage
                   field={article.fields?.Image}
                   className="h-full w-full object-cover"
@@ -210,7 +210,7 @@ export const Default = (props: ArticleListingProps) => {
                     setCurrentPage(1);
                   }}
                   className={`flex-1 text-left ${
-                    selectedCategory === category.name ? 'text-accent font-bold' : ''
+                    selectedCategory === category.name ? 'text-primary font-bold' : ''
                   }`}
                 >
                   {category.name}

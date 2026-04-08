@@ -14,7 +14,7 @@ const config: StorybookConfig = {
     '@storybook/addon-vitest',
   ],
   framework: {
-    name: '@storybook/nextjs',
+    name: '@storybook/nextjs-vite',
     options: {
       nextConfigPath: path.resolve(__dirname, '../next.config.js'),
     },

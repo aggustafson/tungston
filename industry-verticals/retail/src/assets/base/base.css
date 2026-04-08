@@ -17,31 +17,31 @@
   }
 
   h1 {
-    @apply text-5xl lg:text-6xl;
+    @apply text-4xl leading-tight tracking-tight md:text-5xl lg:text-6xl;
   }
 
   h2 {
-    @apply text-4xl lg:text-5xl;
+    @apply text-3xl leading-tight tracking-tight md:text-4xl lg:text-[2.75rem];
   }
 
   h3 {
-    @apply text-3xl lg:text-4xl;
+    @apply text-2xl leading-snug md:text-3xl lg:text-4xl;
   }
 
   h4 {
-    @apply text-2xl lg:text-3xl;
+    @apply text-xl leading-snug md:text-2xl lg:text-3xl;
   }
 
   h5 {
-    @apply text-xl lg:text-2xl;
+    @apply text-lg leading-snug md:text-xl lg:text-2xl;
   }
 
   h6 {
-    @apply text-lg lg:text-xl;
+    @apply text-base leading-snug md:text-lg lg:text-xl;
   }
 
   p {
-    @apply font-body text-foreground-light;
+    @apply font-body text-foreground-light leading-relaxed;
   }
 
   button:not(:disabled),
@@ -54,7 +54,7 @@
   }
 
   .eyebrow {
-    @apply text-accent text-lg font-semibold tracking-[0.175em] uppercase;
+    @apply text-primary text-xs font-semibold tracking-[0.2em] uppercase;
   }
 
   .image-cover {

@@ -5,6 +5,18 @@
   * {
     @apply max-w-full;
   }
+
+  strong {
+    @apply text-accent font-semibold;
+  }
+}
+
+.contentBlock {
+  @apply mx-auto max-w-3xl px-4 py-10 md:py-14;
+}
+
+.contentTitle {
+  @apply text-primary mb-5 md:mb-6;
 }
 .content,
 .rich-text,

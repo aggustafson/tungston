@@ -31,19 +31,23 @@
 }
 
 .arrow-btn {
-  @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b leading-8;
+  @apply border-b-accent text-accent hover:text-primary hover:border-primary inline-flex items-center justify-start gap-3 border-b border-solid leading-8 font-semibold transition-colors;
 
   &::after {
     @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
   }
+
+  &:hover::after {
+    @apply bg-primary;
+  }
 }
 
 .carousel-btn {
-  @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
+  @apply text-foreground! bg-background border-border z-10 size-12 content-center rounded-full border shadow-sm transition-shadow hover:shadow-md;
 }
 
 .surface-btn {
-  @apply bg-background-surface text-accent flex size-6 items-center justify-center rounded font-bold transition-shadow hover:shadow-md;
+  @apply bg-background-surface text-primary flex size-6 items-center justify-center rounded-sm font-bold transition-shadow hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
@@ -55,13 +59,23 @@
 }
 
 .action-btn {
-  @apply text-accent hover:text-accent/80 hover:border-accent/80 border-accent flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold;
+  @apply text-primary hover:text-primary/85 hover:border-primary/80 border-primary flex h-10 items-center gap-3 border-b bg-transparent text-base font-semibold md:text-lg;
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-primary text-background hover:bg-primary/92 flex w-full items-center justify-center rounded-sm p-3 text-center text-base font-semibold transition-all hover:shadow-md md:text-lg;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
   }
+}
+
+/* Solid CTA (orange) — announcement / high-emphasis actions */
+.cta-btn {
+  @apply bg-cta hover:bg-cta/95 inline-flex items-center justify-center rounded-sm px-6 py-2.5 text-sm font-semibold text-white transition-colors md:px-8 md:py-3 md:text-base;
+}
+
+/* Secondary outline (navy border) */
+.outline-btn {
+  @apply border-primary text-primary hover:bg-primary/5 inline-flex items-center justify-center rounded-sm border-2 border-solid bg-transparent px-6 py-2.5 text-sm font-semibold transition-colors md:px-8 md:py-3 md:text-base;
 }

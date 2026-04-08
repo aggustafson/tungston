@@ -72,33 +72,46 @@ export const Default = (props: FooterProps) => {
   ];
 
   return (
-    <section className={`component footer relative ${props.params.styles} overflow-hidden`} id={id}>
-      <div className="bg-background-muted">
-        <div className="container grid gap-12 py-28.5 lg:grid-cols-[1fr_3fr]">
-          <div className="flex flex-col gap-7">
-            <div className="sm:max-w-34">
+    <section
+      className={`footer-site component footer relative ${props.params.styles} overflow-hidden text-white`}
+      id={id}
+    >
+      <div className="bg-primary">
+        <div className="container grid gap-14 py-16 md:gap-16 md:py-20 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,3fr)] lg:gap-12">
+          <div className="flex max-w-md flex-col gap-6">
+            <div className="max-w-48 [&_img]:h-auto [&_img]:max-h-11 [&_img]:w-auto">
               <Image field={props.fields.Logo} />
             </div>
-            <RichText field={props.fields.Description} />
+            <div className="[&_a]:text-accent text-sm leading-relaxed text-white/85 [&_a]:underline-offset-4 hover:[&_a]:text-white">
+              <RichText field={props.fields.Description} />
+            </div>
           </div>
-          <div className="grid gap-13 sm:grid-cols-3 lg:grid-cols-5 lg:gap-5 xl:gap-12">
+          <div className="grid gap-10 sm:grid-cols-2 sm:gap-x-8 lg:grid-cols-5 lg:gap-6 xl:gap-10">
             {sections.map(({ key, title, content }) => (
               <div key={key}>
-                <div className="text-accent mb-8 text-lg font-bold">{title}</div>
-                <div className="space-y-4">{content}</div>
+                <div className="mb-5 text-sm font-semibold tracking-wide text-white">{title}</div>
+                <div className="space-y-3 text-sm text-white/80 [&_a]:text-white/85 [&_a]:transition-colors hover:[&_a]:text-white">
+                  {content}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <div className="bg-background">
-        <div className="container flex items-center justify-between py-8.5 max-sm:flex-col max-sm:items-start max-sm:gap-10">
-          <div className="max-sm:order-2">
+      <div className="bg-primary-muted border-t border-white/10">
+        <div className="container flex flex-col gap-6 py-8 text-sm text-white/75 md:flex-row md:items-center md:justify-between">
+          <div className="order-2 md:order-1">
             <Text field={props.fields.CopyrightText} />
           </div>
-          <div className="flex items-center justify-between gap-20 max-lg:gap-10 max-sm:order-1 max-sm:flex-col max-sm:items-start max-sm:gap-5">
-            <Link field={props.fields.TermsText} className="hover:underline" />
-            <Link field={props.fields.PolicyText} className="hover:underline" />
+          <div className="order-1 flex flex-wrap items-center gap-6 md:order-2 md:gap-10">
+            <Link
+              field={props.fields.TermsText}
+              className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+            />
+            <Link
+              field={props.fields.PolicyText}
+              className="text-white/85 underline-offset-4 transition-colors hover:text-white hover:underline"
+            />
           </div>
         </div>
       </div>
