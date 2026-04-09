@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
+      Value: "Automation programs stall when success is measured only by go-lives. Sustainable metrics track business outcomes, reliability, and team load—so value compounds instead of eroding."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sustainable Style
+      Value: Sustainable automation metrics
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,23 +50,23 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>More consumers are choosing furniture that not only looks good, but does good. Look for pieces made from responsibly-sourced wood, low-VOC finishes, recycled metal, and textiles certified for sustainability. Modern design is an ideal match: its emphasis on material honesty and simplicity fits sustainably‐made furniture beautifully. Choose solid construction — high-quality joinery, durable materials — so your investment lasts. When you buy less, buy well, you reduce waste. The result: a home that reflects your values and your style, both at once.</p></div>
+        <div class="ck-content"><p>Pair efficiency metrics with quality: straight-through processing is meaningless if exceptions quietly balloon or customers churn.</p><p>Watch operational load—tickets per thousand transactions, mean time to recover, toil hours for support teams. Great automation reduces total work, not just task count.</p><p>Revisit thresholds quarterly. Models, vendors, and processes drift; your scorecard should catch drift before executives read about it in escalations.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "Green design doesn’t mean compromising look—explore eco-friendly materials and methods."
+      Value: "Measure automation programs by outcomes, reliability, and operational load—not hype."
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
+      Value: "Define sustainable automation metrics across quality, throughput, and toil reduction."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4f4df6df-317e-485e-b857-1c84af059163"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
+      Value: "Sustainable automation metrics that survive the hype cycle"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -76,10 +76,10 @@ Languages:
       Value: 20260203T082513Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Sustainable Furniture Choices: Modern Design That Reflects Your Values"
+      Value: Sustainable automation metrics | Forma Lux Journal
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: "sustainable furniture design, eco-friendly furniture choices, responsibly sourced wood, low-VOC finishes, recycled metal furniture, sustainable textiles, certified sustainable fabrics, modern sustainable furniture, material honesty in design, simplicity in furniture design, durable furniture construction, high-quality joinery, long-lasting furniture investment, reduce waste home design, buy less buy well philosophy, sustainable home decor, ethical furniture production, green interior design trends, eco-conscious furniture ideas, modern eco-friendly living"
+      Value: "automation metrics, ROI, quality, straight-through processing, observability, continuous improvement, operations, reliability"
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -96,13 +96,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Descubre cómo elegir muebles que se vean bien y hagan el bien. Explora madera de origen responsable, acabados bajos en COV, materiales reciclados y construcción duradera para un hogar elegante y sostenible.
+      Value: "Los programas de automatización se estancan cuando el éxito se mide solo por puestas en marcha. Las métricas sostenibles siguen resultados de negocio, fiabilidad y carga del equipo—para que el valor se acumule en lugar de erosionarse."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Estilo Sostenible
+      Value: Métricas sostenibles de automatización
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -110,17 +110,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>Más consumidores están eligiendo muebles que no solo se ven bien, sino que también hacen el bien. Busca piezas hechas de madera de origen responsable, acabados bajos en COV, metal reciclado y textiles certificados por su sostenibilidad. El diseño moderno es una combinación ideal: su énfasis en la honestidad de los materiales y la simplicidad se adapta perfectamente a los muebles fabricados de manera sostenible. Elige una construcción sólida: ensamblaje de alta calidad, materiales duraderos, para que tu inversión perdure. Cuando compras menos, compras bien, reduces el desperdicio. El resultado: un hogar que refleja tus valores y tu estilo, ambos a la vez.</p></div>
+        <div class="ck-content"><p>Combina métricas de eficiencia con calidad: el procesamiento directo no sirve de nada si las excepciones crecen en silencio o se van clientes.</p><p>Observa la carga operativa—tickets por mil transacciones, tiempo medio de recuperación, horas de trabajo manual de soporte. La buena automatización reduce el trabajo total, no solo el recuento de tareas.</p><p>Revisa umbrales cada trimestre. Modelos, proveedores y procesos derivan; tu cuadro de mando debe detectar la deriva antes de que los ejecutivos la lean en escalaciones.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "El diseño ecológico no significa comprometer el aspecto: explora materiales y métodos eco-amigables."
+      Value: "Mide programas de automatización por resultados, fiabilidad y carga operativa—no por modas."
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Descubre cómo elegir muebles que se vean bien y hagan el bien. Explora madera de origen responsable, acabados bajos en COV, materiales reciclados y construcción duradera para un hogar elegante y sostenible.
+      Value: "Define métricas sostenibles de automatización en calidad, rendimiento y reducción de trabajo manual."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "620dfa54-e6b6-4fcd-bf07-683671d928bb"
@@ -129,7 +129,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Estilo Sostenible: Muebles Modernos que son Buenos para el Planeta"
+      Value: "Métricas sostenibles de automatización que sobreviven al ciclo de moda"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -139,10 +139,10 @@ Languages:
       Value: 20251219T104327Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Opciones de Muebles Sostenibles: Diseño Moderno que Refleja tus Valores"
+      Value: Métricas sostenibles de automatización | Forma Lux Journal
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: "diseño de muebles sostenibles, opciones de muebles eco-amigables, madera de origen responsable, acabados bajos en COV, muebles de metal reciclado, textiles sostenibles, telas certificadas sostenibles, muebles modernos sostenibles, honestidad de materiales en el diseño, simplicidad en el diseño de muebles, construcción de muebles duradera, ensamblaje de alta calidad, inversión en muebles de larga duración, diseño de hogar que reduce el desperdicio, filosofía de comprar menos comprar bien, decoración del hogar sostenible, producción ética de muebles, tendencias de diseño de interiores verdes, ideas de muebles eco-conscientes, vida moderna eco-amigable"
+      Value: "métricas de automatización, ROI, calidad, procesamiento directo, observabilidad, mejora continua, operaciones, fiabilidad"
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -159,13 +159,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Découvrez comment choisir des meubles qui sont beaux et qui font du bien. Explorez le bois provenant de sources responsables, les finitions à faible COV, les matériaux recyclés et la construction durable pour une maison élégante et durable.
+      Value: "Les programmes d'automatisation stagnent lorsque le succès se mesure uniquement aux mises en production. Des métriques durables suivent les résultats d'affaires, la fiabilité et la charge des équipes—afin que la valeur se compose plutôt qu'elle ne s'érode."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Style durable
+      Value: Métriques durables d'automatisation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -173,17 +173,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>De plus en plus de consommateurs choisissent des meubles qui non seulement sont beaux, mais qui font du bien. Recherchez des pièces fabriquées à partir de bois provenant de sources responsables, de finitions à faible COV, de métal recyclé et de textiles certifiés pour la durabilité. Le design moderne est un match idéal : son accent sur l'honnêteté des matériaux et la simplicité s'accorde parfaitement avec les meubles fabriqués de manière durable. Choisissez une construction solide — assemblages de haute qualité, matériaux durables — pour que votre investissement dure. Lorsque vous achetez moins, achetez bien, vous réduisez les déchets. Le résultat : une maison qui reflète vos valeurs et votre style, à la fois.</p></div>
+        <div class="ck-content"><p>Associez l'efficacité à la qualité : le traitement de bout en bout ne veut rien dire si les exceptions gonflent discrètement ou si les clients désertent.</p><p>Surveillez la charge opérationnelle—billets pour mille transactions, délai moyen de rétablissement, heures de travail répétitif pour le support. Une bonne automatisation réduit le travail total, pas seulement le nombre de tâches.</p><p>Révisez les seuils chaque trimestre. Modèles, fournisseurs et processus dérivent ; votre tableau de bord devrait repérer la dérive avant que la direction ne l'apprenne par des escalades.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "Le design écologique ne signifie pas compromettre l'apparence—explorez des matériaux et méthodes éco-responsables."
+      Value: "Mesurez les programmes d'automatisation par les résultats, la fiabilité et la charge opérationnelle—pas par l'effet d'annonce."
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Découvrez comment choisir des meubles qui sont beaux et qui font du bien. Explorez le bois provenant de sources responsables, les finitions à faible COV, les matériaux recyclés et la construction durable pour une maison élégante et durable.
+      Value: "Définissez des métriques durables d'automatisation sur la qualité, le débit et la réduction du travail répétitif."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "072c7bf2-8dd9-4f54-a842-3ac55d1c1579"
@@ -192,7 +192,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Style durable : Meubles modernes qui sont bons pour la planète"
+      Value: "Métriques durables d'automatisation qui survivent au cycle d'engouement"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -202,10 +202,10 @@ Languages:
       Value: 20251217T110139Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Choix de meubles durables : Design moderne qui reflète vos valeurs"
+      Value: Métriques durables d'automatisation | Forma Lux Journal
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: "conception de meubles durables, choix de meubles éco-responsables, bois provenant de sources responsables, finitions à faible COV, meubles en métal recyclé, textiles durables, tissus certifiés durables, meubles modernes durables, honnêteté des matériaux dans le design, simplicité dans la conception de meubles, construction de meubles durables, assemblages de haute qualité, investissement dans des meubles durables, conception de maison réduisant les déchets, philosophie acheter moins acheter bien, décoration intérieure durable, production de meubles éthique, tendances de design intérieur vert, idées de meubles éco-conscients, vie moderne éco-responsable"
+      Value: "métriques d'automatisation, ROI, qualité, traitement de bout en bout, observabilité, amélioration continue, opérations, fiabilité"
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -222,13 +222,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Découvrez comment choisir des meubles qui sont esthétiques et bénéfiques. Explorez le bois issu de sources responsables, les finitions à faible teneur en COV, les matériaux recyclés et la construction durable pour une maison élégante et durable.
+      Value: "Les programmes d'automatisation stagnent lorsque le succès se mesure uniquement aux mises en production. Des métriques durables suivent les résultats d'affaires, la fiabilité et la charge des équipes—afin que la valeur se compose plutôt qu'elle ne s'érode."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Style durable
+      Value: Métriques durables d'automatisation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -236,17 +236,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>De plus en plus de consommateurs choisissent des meubles qui non seulement sont esthétiques, mais qui font du bien. Recherchez des pièces fabriquées à partir de bois issu de sources responsables, de finitions à faible teneur en COV, de métal recyclé et de textiles certifiés pour leur durabilité. Le design moderne est un match idéal : son accent sur l'honnêteté des matériaux et la simplicité s'accorde parfaitement avec les meubles fabriqués de manière durable. Choisissez une construction solide — assemblages de haute qualité, matériaux durables — pour que votre investissement dure. Lorsque vous achetez moins, achetez bien, vous réduisez les déchets. Le résultat : une maison qui reflète vos valeurs et votre style, à la fois.</p></div>
+        <div class="ck-content"><p>Associez l'efficacité à la qualité : le traitement de bout en bout ne veut rien dire si les exceptions gonflent discrètement ou si les clients désertent.</p><p>Surveillez la charge opérationnelle—billets pour mille transactions, délai moyen de rétablissement, heures de travail répétitif pour le support. Une bonne automatisation réduit le travail total, pas seulement le nombre de tâches.</p><p>Révisez les seuils chaque trimestre. Modèles, fournisseurs et processus dérivent ; votre tableau de bord devrait repérer la dérive avant que la direction ne l'apprenne par des escalades.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: Le design écologique ne signifie pas compromettre l'apparence—explorez des matériaux et méthodes respectueux de l'environnement.
+      Value: "Mesurez les programmes d'automatisation par les résultats, la fiabilité et la charge opérationnelle—pas par l'effet d'annonce."
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Découvrez comment choisir des meubles qui sont esthétiques et bénéfiques. Explorez le bois issu de sources responsables, les finitions à faible teneur en COV, les matériaux recyclés et la construction durable pour une maison élégante et durable.
+      Value: "Définissez des métriques durables d'automatisation sur la qualité, le débit et la réduction du travail répétitif."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "1f38556f-04ff-4ee2-be43-80a14d4aeb2b"
@@ -255,7 +255,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Style durable : Mobilier moderne qui est bon pour la planète"
+      Value: "Métriques durables d'automatisation qui survivent au cycle d'engouement"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -265,7 +265,7 @@ Languages:
       Value: 20251217T104025Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Choix de meubles durables : Design moderne qui reflète vos valeurs"
+      Value: Métriques durables d'automatisation | Forma Lux Journal
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: "conception de meubles durables, choix de meubles écologiques, bois issu de sources responsables, finitions à faible teneur en COV, meubles en métal recyclé, textiles durables, tissus certifiés durables, meubles modernes durables, honnêteté des matériaux dans le design, simplicité dans la conception de meubles, construction de meubles durables, assemblages de haute qualité, investissement dans des meubles durables, conception de maison réduisant les déchets, philosophie acheter moins acheter bien, décoration intérieure durable, production de meubles éthiques, tendances de design d'intérieur vertes, idées de meubles éco-conscients, vie moderne éco-responsable"
+      Value: "métriques d'automatisation, ROI, qualité, traitement de bout en bout, observabilité, amélioration continue, opérations, fiabilité"

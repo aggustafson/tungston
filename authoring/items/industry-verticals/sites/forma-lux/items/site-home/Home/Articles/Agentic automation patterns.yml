@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+      Value: "Agentic automation treats work as coordinated steps—classify, extract, decide, escalate—often powered by AI with clear guardrails. Learn how to design repeatable patterns that stay observable, auditable, and safe to evolve."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: Agentic automation patterns
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,7 +50,7 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>feel</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> modern.</span></span></p></div>
+        <div class="ck-content"><p>Agentic automation is less about a single model and more about a choreography: each step has an owner, an input, an output, and a fallback when confidence drops. When you design that way, teams can swap components—new extractors, different LLMs—without rewriting the whole process.</p><p>Start by mapping decisions that truly need judgment versus those that can be rule-driven. Put guardrails at boundaries: PII redaction, policy checks, and human review queues for edge cases. Log every handoff so operations can trace what happened when auditors or customers ask.</p><p>Finally, ship in thin slices. Pilot one pattern end to end, measure cycle time and quality, then expand. The goal is automation that feels boring in production: predictable, measurable, and easy to improve.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -62,13 +62,13 @@ Languages:
         
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+      Value: "Design agentic automation with repeatable steps, guardrails, and full traceability—so AI-assisted workflows stay safe and production-ready."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3cb20bd1-6579-4c82-9a33-92aab0ba15a7"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+      Value: "Agentic automation patterns: safe, observable AI workflows"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,10 +78,10 @@ Languages:
       Value: 20260203T082512Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+      Value: "Agentic automation patterns | Forma Lux Journal"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: modern living room, modern furniture, living room design, home décor, interior design inspiration, sleek sectional, bold color palette, architectural coffee table, clean lines, geometric rug, sculptural accessories, soft textiles, warm wood tones, cool metal finishes, high gloss surfaces, matte surfaces, furniture balance, layering textures, statement décor, personalized home style, contemporary living space, airy room design
+      Value: agentic automation, AI workflows, intelligent automation, orchestration, guardrails, human in the loop, observability, document AI, process automation
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -98,13 +98,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Así que tienes una sala de estar que funciona, pero no inspira. Eso cambia hoy. Comienza eligiendo una pieza destacada, tal vez un sofá seccional elegante en un color audaz o una mesa de centro arquitectónica con líneas limpias. Deja que esa pieza guíe tu paleta. Luego, añade contraste: textiles suaves, accesorios escultóricos, una alfombra geométrica. El equilibrio es clave: combina tonos de madera cálidos con acabados metálicos fríos; mezcla superficies de alto brillo con superficies mate. Y no olvides la escala: los muebles grandes invitan a la comodidad, pero el espacio abierto mantiene las cosas aireadas. Finalmente, personaliza: añade un objeto significativo, una pieza de arte inusual o una planta con carácter. ¿El resultado? Un espacio vital que refleja tu estilo y te hace sentir moderno."
+      Value: "La automatización agéntica organiza el trabajo en pasos coordinados—clasificar, extraer, decidir, escalar—con IA y salvaguardas claras. Descubre patrones repetibles, auditables y fáciles de mejorar."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Seleccionando el sofá perfecto
+      Value: Patrones de automatización agéntica
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -112,7 +112,7 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Así que tienes una sala de estar que funciona, pero no inspira. Eso cambia hoy. Comienza eligiendo una pieza destacada, tal vez un sofá seccional elegante en un color audaz o una mesa de centro arquitectónica con líneas limpias. Deja que esa pieza guíe tu paleta. Luego, añade contraste: textiles suaves, accesorios escultóricos, una alfombra geométrica. El equilibrio es clave: combina tonos de madera cálidos con acabados metálicos fríos; mezcla superficies de alto brillo con superficies mate. Y no olvides la escala: los muebles grandes invitan a la comodidad, pero el espacio abierto mantiene las cosas aireadas. Finalmente, personaliza: añade un objeto significativo, una pieza de arte inusual o una planta con carácter. ¿El resultado? Un espacio vital que refleja tu estilo y te hace </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderno.</span></span></p></div>
+        <div class="ck-content"><p>La automatización agéntica organiza el trabajo como una coreografía: cada paso tiene responsable, entrada, salida y un plan cuando baja la confianza. Así los equipos pueden sustituir componentes sin reescribir todo el proceso.</p><p>Delimita qué decisiones requieren criterio humano y cuáles pueden gobernarse por reglas. Coloca salvaguardas en los bordes: redacción de datos sensibles, comprobaciones de política y colas de revisión para casos límite. Registra cada traspaso para auditoría y operaciones.</p><p>Implementa por fases: un patrón de punta a punta, mide tiempo y calidad, y luego escala. El objetivo es automatización predecible, medible y fácil de mejorar.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -120,11 +120,11 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: |
-        Transforma una habitación cansada y neutral en un refugio moderno y curado con solo unos pocos movimientos inteligentes.
+        Patrones prácticos para flujos agénticos: traspasos claros, salvaguardas y trazabilidad en automatización inteligente.
         
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Así que tienes una sala de estar que funciona, pero no inspira. Eso cambia hoy. Comienza eligiendo una pieza destacada, tal vez un sofá seccional elegante en un color audaz o una mesa de centro arquitectónica con líneas limpias. Deja que esa pieza guíe tu paleta. Luego, añade contraste: textiles suaves, accesorios escultóricos, una alfombra geométrica. El equilibrio es clave: combina tonos de madera cálidos con acabados metálicos fríos; mezcla superficies de alto brillo con superficies mate. Y no olvides la escala: los muebles grandes invitan a la comodidad, pero el espacio abierto mantiene las cosas aireadas. Finalmente, personaliza: añade un objeto significativo, una pieza de arte inusual o una planta con carácter. ¿El resultado? Un espacio vital que refleja tu estilo y te hace sentir moderno."
+      Value: "Diseña automatización agéntica con pasos repetibles, salvaguardas y trazabilidad completa para flujos con IA en producción."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "e2860bd2-90bc-40f3-b084-beeb010cf933"
@@ -133,7 +133,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "De Lienzo en Blanco a Espacio Audaz: Cómo Iniciar la Transformación de Tu Sala de Estar Moderna"
+      Value: "Patrones de automatización agéntica: flujos de IA seguros y observables"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -143,10 +143,10 @@ Languages:
       Value: 20251219T104327Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "De Lienzo en Blanco a Espacio Audaz: Cómo Iniciar la Transformación de Tu Sala de Estar Moderna"
+      Value: "Patrones de automatización agéntica | Revista Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: sala de estar moderna, muebles modernos, diseño de sala de estar, decoración del hogar, inspiración de diseño de interiores, sofá seccional elegante, paleta de colores audaz, mesa de centro arquitectónica, líneas limpias, alfombra geométrica, accesorios escultóricos, textiles suaves, tonos de madera cálidos, acabados metálicos fríos, superficies de alto brillo, superficies mate, equilibrio de muebles, capas de texturas, decoración llamativa, estilo de hogar personalizado, espacio de vida contemporáneo, diseño de habitación aireada
+      Value: automatización agéntica, flujos de IA, automatización inteligente, orquestación, salvaguardas, humano en el bucle, trazabilidad, documentos, automatización de procesos
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -163,13 +163,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+      Value: "L'automatisation agentique enchaîne des étapes—classer, extraire, décider, escalader—souvent avec l'IA et des garde-fous explicites. Voyez comment concevoir des motifs reproductibles, auditables et faciles à faire évoluer."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sélectionner le canapé parfait
+      Value: Modèles d'automatisation agentique
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -177,7 +177,7 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderne.</span></span></p></div>
+        <div class="ck-content"><p>L'automatisation agentique structure le travail comme une chorégraphie : chaque étape a un responsable, une entrée, une sortie et un plan de repli lorsque la confiance baisse. Les équipes peuvent ainsi remplacer des composants sans réécrire l'ensemble du processus.</p><p>Identifiez les décisions qui exigent un jugement humain et celles qui peuvent être réglées par des règles. Placez des garde-fous aux frontières : masquage des données sensibles, contrôles de politique et files de revue pour les cas limites. Tracez chaque passage de relais pour l'audit et les opérations.</p><p>Déployez par incréments : un motif de bout en bout, mesurez délais et qualité, puis élargissez. L'objectif est une automatisation prévisible, mesurable et facile à améliorer.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -185,11 +185,11 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: |
-        Transformez une pièce neutre et fatiguée en un havre moderne et soigné avec quelques gestes intelligents.
+        Pratiques pour des flux agentiques : passages de relais, garde-fous et observabilité dans l'automatisation intelligente.
         
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez des surfaces brillantes avec des surfaces mates. Et n'oubliez pas l'échelle - de grands meubles invitent au confort, mais un espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+      Value: "Concevez une automatisation agentique avec des étapes reproductibles, des garde-fous et une traçabilité complète pour des workflows d'IA en production."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "b4aff518-edb7-4c9f-8226-f608e4da4664"
@@ -198,7 +198,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "De l'ardoise vierge à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+      Value: "Modèles d'automatisation agentique : des workflows d'IA sûrs et observables"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -208,10 +208,10 @@ Languages:
       Value: 20251217T110138Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "De l'ardoise vierge à l'espace audacieux : Comment démarrer la transformation de votre salon moderne"
+      Value: "Modèles d'automatisation agentique | Journal Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: salon moderne, mobilier moderne, design de salon, décoration intérieure, inspiration de design intérieur, canapé d'angle élégant, palette de couleurs audacieuses, table basse architecturale, lignes épurées, tapis géométrique, accessoires sculpturaux, textiles doux, tons de bois chauds, finitions métalliques froides, surfaces brillantes, surfaces mates, équilibre du mobilier, superposition de textures, décoration de caractère, style de maison personnalisé, espace de vie contemporain, design de pièce aérée
+      Value: automatisation agentique, workflows IA, automatisation intelligente, orchestration, garde-fous, humain dans la boucle, observabilité, documents, automatisation des processus
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -228,13 +228,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez les surfaces brillantes avec les surfaces mates. Et n'oubliez pas l'échelle - les grands meubles invitent au confort, mais l'espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+      Value: "L'automatisation agentique enchaîne des étapes—classer, extraire, décider, escalader—souvent avec l'IA et des garde-fous explicites. Voyez comment concevoir des motifs reproductibles, auditables et faciles à faire évoluer."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sélectionner le canapé parfait
+      Value: Modèles d'automatisation agentique
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -242,17 +242,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez les surfaces brillantes avec les surfaces mates. Et n'oubliez pas l'échelle - les grands meubles invitent au confort, mais l'espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>sentir</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> moderne.</span></span></p></div>
+        <div class="ck-content"><p>L'automatisation agentique structure le travail comme une chorégraphie : chaque étape a un responsable, une entrée, une sortie et un plan de repli lorsque la confiance baisse. Les équipes peuvent ainsi remplacer des composants sans réécrire l'ensemble du processus.</p><p>Identifiez les décisions qui exigent un jugement humain et celles qui peuvent être réglées par des règles. Placez des garde-fous aux frontières : masquage des données sensibles, contrôles de politique et files de revue pour les cas limites. Tracez chaque passage de relais pour l'audit et les opérations.</p><p>Déployez par incréments : un motif de bout en bout, mesurez délais et qualité, puis élargissez. L'objectif est une automatisation prévisible, mesurable et facile à améliorer.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: Transformez une pièce neutre et fatiguée en un havre moderne et soigné avec quelques gestes astucieux.
+      Value: Pratiques pour des flux agentiques : passages de relais, garde-fous et observabilité dans l'automatisation intelligente.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Vous avez un salon qui fonctionne, mais qui n'inspire pas. Cela change aujourd'hui. Commencez par choisir une pièce maîtresse - peut-être un canapé d'angle élégant dans une couleur audacieuse ou une table basse architecturale aux lignes épurées. Laissez cette pièce guider votre palette. Ensuite, superposez les contrastes : textiles doux, accessoires sculpturaux, tapis géométrique. L'équilibre est essentiel : associez des tons de bois chauds à des finitions métalliques froides ; mélangez les surfaces brillantes avec les surfaces mates. Et n'oubliez pas l'échelle - les grands meubles invitent au confort, mais l'espace ouvert garde les choses aérées. Enfin, personnalisez : ajoutez un objet significatif, une œuvre d'art inhabituelle ou une plante avec du caractère. Le résultat ? Un espace de vie qui reflète votre style et vous fait sentir moderne."
+      Value: "Concevez une automatisation agentique avec des étapes reproductibles, des garde-fous et une traçabilité complète pour des workflows d'IA en production."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "6df91571-0be8-47c0-8600-edd0bbbb5df3"
@@ -261,7 +261,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "De l'Ardoise Vierge à l'Espace Audacieux : Comment Lancer la Rénovation de Votre Salon Moderne"
+      Value: "Modèles d'automatisation agentique : des workflows d'IA sûrs et observables"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -271,7 +271,7 @@ Languages:
       Value: 20251217T104014Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "De l'Ardoise Vierge à l'Espace Audacieux : Comment Lancer la Rénovation de Votre Salon Moderne"
+      Value: "Modèles d'automatisation agentique | Journal Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: salon moderne, mobilier moderne, design de salon, décoration intérieure, inspiration de design d'intérieur, canapé d'angle élégant, palette de couleurs audacieuses, table basse architecturale, lignes épurées, tapis géométrique, accessoires sculpturaux, textiles doux, tons de bois chauds, finitions métalliques froides, surfaces brillantes, surfaces mates, équilibre du mobilier, superposition de textures, décoration de caractère, style de maison personnalisé, espace de vie contemporain, design de pièce aérée
+      Value: automatisation agentique, workflows IA, automatisation intelligente, orchestration, garde-fous, humain dans la boucle, observabilité, documents, automatisation des processus

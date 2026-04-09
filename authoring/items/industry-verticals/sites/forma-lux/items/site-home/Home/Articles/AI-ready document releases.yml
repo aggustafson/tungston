@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
+      Value: "Shipping AI-assisted document changes requires the same discipline as software—versioning, validation, and controlled rollout. Learn how to structure AI-ready releases that protect quality and compliance."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: AI-ready document releases
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,7 +50,7 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Minimal design doesn’t mean flat. Texture can bring depth, warmth and intrigue. Start with a base material – say, a walnut dining table – and layer in contrast: a brushed steel base, a wool throw, a leather accent chair. Each material tells a story and adds richness. Think about tactile qualities too – the softness of upholstery, coolness of metal, natural irregularity of stone. The goal: a palette of feeling as much as appearance. Keep the overall color scheme restrained so the textures shine through rather than compete. The result is a modern space that invites touch, not just looks slick.</span></span></p></div>
+        <div class="ck-content"><p>An AI-ready document release is not a one-off export—it is a pipeline. Start with clear baselines: golden samples, expected fields, and acceptable confidence bands for extraction and classification. Automate regression checks before anything reaches production.</p><p>Version models and prompts alongside application code. Capture who approved each promotion, what data was used for evaluation, and how drift will be monitored after go-live. Your operations team should be able to answer “what changed?” without a research project.</p><p>Finally, pair releases with rollback paths and human-in-the-loop queues for low-confidence items. Reliability beats novelty when documents drive revenue, risk, or regulatory outcomes.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -62,13 +62,13 @@ Languages:
         
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
+      Value: "Structure AI-ready document releases with validation, versioning, and controlled promotion so production stays compliant and measurable."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "9561a261-6a19-4d69-9050-a0be6cd50b6c"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Play With Texture: Why Material Mixes Make Modern Furniture Pop"
+      Value: "AI-ready document releases: validation, versioning, and rollout"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,10 +78,10 @@ Languages:
       Value: 20260203T082513Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Play With Texture: Material Mixes That Elevate Modern Design"
+      Value: "AI-ready document releases | Forma Lux Journal"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: modern furniture texture, material mix design, layered modern interiors, wood and metal furniture, glass and fabric combinations, tactile home décor, texture in interior design, modern material palette, furniture contrast ideas, warm wood tones, brushed steel accents, wool and leather textures, minimalist home warmth, modern mixed materials, how to add texture to décor, contemporary furniture styling, modern layering techniques, interior design materials, modern texture ideas
+      Value: document AI, intelligent document processing, model release, MLOps, validation, prompt versioning, compliance, regression testing, human in the loop
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -98,13 +98,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Minimalista no significa plano. Descubre cómo mezclar texturas—madera, lana, metal y vidrio—crea profundidad, calidez y personalidad en el diseño de muebles modernos.
+      Value: "Publicar cambios con IA en documentos exige la misma disciplina que el software: versionado, validación y despliegue controlado. Aprende a estructurar versiones listas para IA que protejan calidad y cumplimiento."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Seleccionando el sofá perfecto
+      Value: Versiones de documentos listos para IA
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -112,17 +112,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">El diseño minimalista no significa plano. La textura puede aportar profundidad, calidez e intriga. Comienza con un material base, por ejemplo, una mesa de comedor de nogal, y añade contrastes: una base de acero cepillado, una manta de lana, una silla de acento de cuero. Cada material cuenta una historia y añade riqueza. Piensa también en las cualidades táctiles: la suavidad de la tapicería, la frescura del metal, la irregularidad natural de la piedra. El objetivo: una paleta de sensaciones tanto como de apariencia. Mantén el esquema de color general restringido para que las texturas brillen en lugar de competir. El resultado es un espacio moderno que invita al tacto, no solo a verse elegante.</span></span></p></div>
+        <div class="ck-content"><p>Una versión lista para IA no es una exportación puntual: es una tubería. Parte de líneas base claras: muestras doradas, campos esperados y bandas de confianza aceptables. Automatiza comprobaciones de regresión antes de producción.</p><p>Versiona modelos y prompts junto con el código de aplicación. Registra quién aprobó cada promoción, con qué datos se evaluó y cómo vigilará el desvío tras el despliegue.</p><p>Por último, combina lanzamientos con vías de reversión y colas con intervención humana para elementos de baja confianza. La fiabilidad supera a la novedad cuando los documentos afectan a ingresos o cumplimiento.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: Combina materiales como madera, lana, metal y vidrio para un aspecto minimalista pero con capas.
+      Value: Disciplina de publicación para IA documental: validación, versionado y despliegue seguro.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Minimalista no significa plano. Descubre cómo mezclar texturas—madera, lana, metal y vidrio—crea profundidad, calidez y personalidad en el diseño de muebles modernos.
+      Value: "Estructura versiones de documentos listas para IA con validación, control de versiones y promoción medida para mantener el cumplimiento."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "3765e061-1fb5-40b9-a212-1a312f60b407"
@@ -131,7 +131,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Juega con la textura: por qué las mezclas de materiales hacen que los muebles modernos destaquen"
+      Value: "Versiones de documentos listos para IA: validación y despliegue"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -141,10 +141,10 @@ Languages:
       Value: 20251219T104327Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Juega con la textura: mezclas de materiales que elevan el diseño moderno"
+      Value: "Versiones de documentos listos para IA | Revista Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: textura de muebles modernos, diseño de mezcla de materiales, interiores modernos en capas, muebles de madera y metal, combinaciones de vidrio y tela, decoración del hogar táctil, textura en diseño de interiores, paleta de materiales modernos, ideas de contraste de muebles, tonos cálidos de madera, acentos de acero cepillado, texturas de lana y cuero, calidez minimalista en el hogar, materiales mixtos modernos, cómo añadir textura a la decoración, estilo de muebles contemporáneos, técnicas modernas de capas, materiales de diseño de interiores, ideas de textura moderna
+      Value: IA documental, procesamiento inteligente de documentos, versionado de modelos, MLOps, validación, cumplimiento, pruebas de regresión, humano en el bucle
 - Language: "fr-CA"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -161,13 +161,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée de la profondeur, de la chaleur et de la personnalité dans le design de meubles modernes.
+      Value: "Déployer des changements pilotés par l'IA sur des documents exige la même rigueur que pour le logiciel : versions, validation et mise en production maîtrisée. Voyez comment structurer des livraisons prêtes pour l'IA tout en protégeant qualité et conformité."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sélectionner le canapé parfait
+      Value: Versions de documents prêts pour l'IA
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -175,7 +175,7 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Un design minimaliste ne signifie pas plat. La texture peut apporter de la profondeur, de la chaleur et de l'intrigue. Commencez par un matériau de base – disons, une table à manger en noyer – et ajoutez du contraste : une base en acier brossé, un jeté en laine, un fauteuil d'appoint en cuir. Chaque matériau raconte une histoire et ajoute de la richesse. Pensez aussi aux qualités tactiles – la douceur du rembourrage, la fraîcheur du métal, l'irrégularité naturelle de la pierre. L'objectif : une palette de sensations autant qu'une apparence. Gardez le schéma de couleurs global restreint pour que les textures se démarquent plutôt que de rivaliser. Le résultat est un espace moderne qui invite au toucher, pas seulement à l'apparence lisse.</span></span></p></div>
+        <div class="ck-content"><p>Une livraison prête pour l'IA est une chaîne de traitement. Fixez des références : échantillons de référence, champs attendus et seuils de confiance. Automatisez des tests de régression avant la production.</p><p>Versionnez modèles et invites avec le code applicatif. Consignez les approbations, les jeux d'évaluation et la surveillance du dérive après mise en ligne.</p><p>Prévoyez retour arrière et files de révision humaine pour les cas incertains. La fiabilité prime lorsque les documents portent risque ou conformité.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -183,11 +183,11 @@ Languages:
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
       Value: |
-        Combinez des matériaux comme le bois, la laine, le métal et le verre pour un look superposé mais minimaliste.
+        Discipline de livraison pour l'IA documentaire : validation, versionnement et déploiement sécurisé.
         
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée de la profondeur, de la chaleur et de la personnalité dans le design de meubles modernes.
+      Value: "Structurez des livraisons prêtes pour l'IA avec validation, versionnement et promotion contrôlée pour une production conforme et mesurable."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "a2b49244-4a05-474c-958a-69b3abd0d33f"
@@ -196,7 +196,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Jouez avec la texture : Pourquoi les mélanges de matériaux font ressortir les meubles modernes"
+      Value: "Versions de documents prêts pour l'IA : validation et déploiement"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -206,10 +206,10 @@ Languages:
       Value: 20251217T110138Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Jouez avec la texture : Les mélanges de matériaux qui élèvent le design moderne"
+      Value: "Versions de documents prêts pour l'IA | Journal Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: texture de meubles modernes, design de mélange de matériaux, intérieurs modernes superposés, meubles en bois et métal, combinaisons de verre et de tissu, décoration tactile, texture dans le design d'intérieur, palette de matériaux modernes, idées de contraste de meubles, tons de bois chauds, accents en acier brossé, textures de laine et de cuir, chaleur minimaliste à la maison, matériaux mixtes modernes, comment ajouter de la texture à la décoration, style de meubles contemporains, techniques de superposition modernes, matériaux de design d'intérieur, idées de texture moderne
+      Value: IA documentaire, traitement intelligent des documents, versionnement de modèles, MLOps, validation, conformité, tests de régression, humain dans la boucle
 - Language: "fr-FR"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
@@ -226,13 +226,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée profondeur, chaleur et personnalité dans le design de mobilier moderne.
+      Value: "Déployer des changements pilotés par l'IA sur des documents exige la même rigueur que pour le logiciel : versions, validation et mise en production maîtrisée. Voyez comment structurer des livraisons prêtes pour l'IA tout en protégeant qualité et conformité."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sélectionner le canapé parfait
+      Value: Versions de documents prêts pour l'IA
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -240,17 +240,17 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Un design minimaliste ne signifie pas plat. La texture peut apporter profondeur, chaleur et intrigue. Commencez par un matériau de base – disons, une table à manger en noyer – et ajoutez du contraste : une base en acier brossé, un plaid en laine, un fauteuil d'appoint en cuir. Chaque matériau raconte une histoire et ajoute de la richesse. Pensez aussi aux qualités tactiles – la douceur du rembourrage, la fraîcheur du métal, l'irrégularité naturelle de la pierre. L'objectif : une palette de sensations autant qu'une apparence. Gardez le schéma de couleurs global restreint pour que les textures se démarquent plutôt que de rivaliser. Le résultat est un espace moderne qui invite au toucher, pas seulement à l'apparence lisse.</span></span></p></div>
+        <div class="ck-content"><p>Une livraison prête pour l'IA est une chaîne de traitement. Fixez des références : échantillons de référence, champs attendus et seuils de confiance. Automatisez des tests de régression avant la production.</p><p>Versionnez modèles et invites avec le code applicatif. Consignez les approbations, les jeux d'évaluation et la surveillance du dérive après mise en ligne.</p><p>Prévoyez retour arrière et files de révision humaine pour les cas incertains. La fiabilité prime lorsque les documents portent risque ou conformité.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: Combinez des matériaux comme le bois, la laine, le métal et le verre pour un look superposé mais minimaliste.
+      Value: Discipline de livraison pour l'IA documentaire : validation, versionnement et déploiement sécurisé.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Minimal ne signifie pas plat. Découvrez comment le mélange de textures—bois, laine, métal et verre—crée profondeur, chaleur et personnalité dans le design de mobilier moderne.
+      Value: "Structurez des livraisons prêtes pour l'IA avec validation, versionnement et promotion contrôlée pour une production conforme et mesurable."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "a5f90eff-d465-4aa6-845e-9035224f011b"
@@ -259,7 +259,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Jouez avec la texture : Pourquoi les mélanges de matériaux font ressortir le mobilier moderne"
+      Value: "Versions de documents prêts pour l'IA : validation et déploiement"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -269,7 +269,7 @@ Languages:
       Value: 20251217T104025Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Jouez avec la texture : Les mélanges de matériaux qui élèvent le design moderne"
+      Value: "Versions de documents prêts pour l'IA | Journal Forma Lux"
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
-      Value: texture de mobilier moderne, design de mélange de matériaux, intérieurs modernes superposés, meubles en bois et métal, combinaisons de verre et de tissu, décoration intérieure tactile, texture dans le design d'intérieur, palette de matériaux modernes, idées de contraste de mobilier, tons chauds du bois, accents en acier brossé, textures de laine et de cuir, chaleur minimaliste à la maison, matériaux mixtes modernes, comment ajouter de la texture à la décoration, style de mobilier contemporain, techniques de superposition modernes, matériaux de design d'intérieur, idées de texture moderne
+      Value: IA documentaire, traitement intelligent des documents, versionnement de modèles, MLOps, validation, conformité, tests de régression, humain dans la boucle
