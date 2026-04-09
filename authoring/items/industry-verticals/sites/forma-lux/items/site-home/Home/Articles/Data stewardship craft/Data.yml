@@ -1,19 +1,16 @@
 ﻿---
-ID: "2cede07b-74a1-4559-acc2-c3f15d26540c"
-Parent: "aeef3a7c-6f36-4d86-8629-4ea57a0c7656"
+ID: "8cbc6809-b5ea-46cc-9e19-b41df72f25a1"
+Parent: "baa0704b-c6b1-41fc-9fc5-01c79ff5ddc4"
 Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Heart of the Room/Data"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Data stewardship craft/Data"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250915T102842Z
+      Value: 20250919T121310Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -24,14 +21,14 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4ed5e5f-4d43-45fb-8924-1b2b0616c062"
+      Value: "f067fd46-cdf3-453f-93df-a9afc9b59d87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\movin.tilakaratne@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250917T090402Z
+      Value: 20250919T121310Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -49,7 +46,7 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "454b62af-7638-4cec-b716-07106e396dda"
+      Value: "133402e5-158f-4686-bc95-b899a2722feb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -74,7 +71,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c27a7af-40ae-48c8-96c3-ad0f1df77cf6"
+      Value: "b0277ca8-b72a-457d-8383-946f7fcb2a91"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -99,7 +96,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c340c06c-acd1-4994-9fe5-8ce54b7b7e6a"
+      Value: "d9959e3b-ed32-4a9c-a328-8783a5f3964c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

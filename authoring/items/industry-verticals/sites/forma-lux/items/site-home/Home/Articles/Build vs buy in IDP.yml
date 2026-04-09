@@ -2,7 +2,7 @@
 ID: "0cb9beeb-71a0-4104-ba5d-4846f091a439"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/t"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Build vs buy in IDP"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "5b4e2cf0-1d03-41fd-bbf7-380843ee49cd"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Color Confidence How to Use Bold Hues in Modern Furniture Without Going Overboard
+    Value: Build vs buy in IDP
   Versions:
   - Version: 1
     Fields:
@@ -87,7 +87,7 @@ Languages:
     Value: "890f1759-dace-4317-8276-bc54ef01d239"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Confianza en el Color Cómo Usar Tonos Audaces en Muebles Modernos Sin Exagerar
+    Value: Construir frente a comprar en la plataforma IDP
   Versions:
   - Version: 1
     Fields:
@@ -150,7 +150,7 @@ Languages:
     Value: "36131550-16fa-44c4-aca1-bc0c3bb4257b"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Confiance en la couleur Comment utiliser des teintes audacieuses dans les meubles modernes sans en faire trop
+    Value: Construire ou acheter sur la plateforme IDP
   Versions:
   - Version: 1
     Fields:
@@ -213,7 +213,7 @@ Languages:
     Value: "2d286c3e-853e-4a0c-9163-400d2acd8f4d"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Confiance en la couleur Comment utiliser des teintes audacieuses dans les meubles modernes sans en faire trop
+    Value: Construire ou acheter sur la plateforme IDP
   Versions:
   - Version: 1
     Fields:

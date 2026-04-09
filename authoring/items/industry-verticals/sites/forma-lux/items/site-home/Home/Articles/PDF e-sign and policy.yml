@@ -2,7 +2,7 @@
 ID: "084ca194-138b-4231-a4b2-6e76e86afaff"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Small Space Big Impact"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/PDF e-sign and policy"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "f5c1115b-f893-4339-a9db-f375fd812a36"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+    Value: PDF e-sign and policy
   Versions:
   - Version: 1
     Fields:
@@ -84,7 +84,7 @@ Languages:
     Value: "9baa899b-b7d8-4119-b4fb-4d00df702d7d"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Espacio Pequeño, Gran Impacto: Elecciones Inteligentes de Muebles para Hogares Compactos"
+    Value: PDF firma electrónica y política
   Versions:
   - Version: 1
     Fields:
@@ -144,7 +144,7 @@ Languages:
     Value: "24a6d2ce-5ad8-4cbd-b983-d0fe37c6aec0"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Petit espace, grand impact : Choix de meubles intelligents pour les maisons compactes"
+    Value: PDF signature électronique et politique
   Versions:
   - Version: 1
     Fields:
@@ -204,7 +204,7 @@ Languages:
     Value: "f4710c50-87dd-43f9-b924-cc9bd3310dee"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Petit espace, grand impact : choix de meubles intelligents pour les maisons compactes"
+    Value: PDF signature électronique et politique
   Versions:
   - Version: 1
     Fields:

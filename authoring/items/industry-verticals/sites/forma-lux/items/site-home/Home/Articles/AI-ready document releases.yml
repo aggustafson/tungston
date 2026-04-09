@@ -2,7 +2,7 @@
 ID: "65943f22-51e2-4e04-9342-df9eafa756a0"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Play With Texture Why Material Mixes Make Modern Furniture Pop"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/AI-ready document releases"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "b55e501b-4103-43a0-8b17-6462ffc61498"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Play With Texture Why Material Mixes Make Modern Furniture Pop
+    Value: AI-ready document releases
   Versions:
   - Version: 1
     Fields:
@@ -89,7 +89,7 @@ Languages:
     Value: "7c703dce-ec38-4ac4-a088-1f2ad5d0d641"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Juega con la textura por qué las mezclas de materiales hacen que los muebles modernos destaquen
+    Value: Versiones de documentos listos para IA
   Versions:
   - Version: 1
     Fields:
@@ -152,7 +152,7 @@ Languages:
     Value: "61a50537-be55-488b-b2dc-c133f4ff3a2e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Jouez avec la texture Pourquoi les mélanges de matériaux font ressortir les meubles modernes
+    Value: Versions de documents prêts pour l'IA
   Versions:
   - Version: 1
     Fields:
@@ -217,7 +217,7 @@ Languages:
     Value: "0a17e9b5-a00b-454a-9cf4-7da13d5a0d03"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Jouez avec la texture Pourquoi les mélanges de matériaux font ressortir le mobilier moderne
+    Value: Versions de documents prêts pour l'IA
   Versions:
   - Version: 1
     Fields:

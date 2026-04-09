@@ -2,7 +2,7 @@
 ID: "a24f27f8-62f6-48d0-8d30-055cfac9874b"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Lounge in Style"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/IDP and modernization"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "59fa5561-476b-409f-9628-8ac747cb7a43"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Lounge in Style: Choosing the Right Modern Sofa for Your Space"
+    Value: IDP and modernization
   Versions:
   - Version: 1
     Fields:
@@ -89,7 +89,7 @@ Languages:
     Value: "185f00fe-4358-43c2-8ca2-cb9306ab1e19"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Relájate con Estilo: Eligiendo el Sofá Moderno Adecuado para tu Espacio"
+    Value: IDP y modernización
   Versions:
   - Version: 1
     Fields:
@@ -152,7 +152,7 @@ Languages:
     Value: "b17167ee-e519-4817-a11c-ef23492926be"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Détendez-vous avec style : Choisir le bon canapé moderne pour votre espace"
+    Value: IDP et modernisation
   Versions:
   - Version: 1
     Fields:
@@ -215,7 +215,7 @@ Languages:
     Value: "c8242c6e-394b-4d81-a513-74226be315eb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Détendez-vous avec style : Choisir le bon canapé moderne pour votre espace"
+    Value: IDP et modernisation
   Versions:
   - Version: 1
     Fields:

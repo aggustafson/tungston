@@ -2,7 +2,7 @@
 ID: "63f4d150-4b5f-4d77-ab0b-f732d22709a6"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Dining Design Done Right Modern Furniture for the Heart of Your Home"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Records backlogs and intake"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "26958910-c8d5-44b1-bd18-98172720a4bf"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Dining Design Done Right Modern Furniture for the Heart of Your Home
+    Value: Records backlogs and intake
   Versions:
   - Version: 1
     Fields:
@@ -89,7 +89,7 @@ Languages:
     Value: "340ed41a-6185-4315-9f00-4376c57f9e84"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Diseño de Comedor Bien Hecho Muebles Modernos para el Corazón de Tu Hogar
+    Value: Retrasos e ingesta de registros
   Versions:
   - Version: 1
     Fields:
@@ -155,7 +155,7 @@ Languages:
     Value: "f2bb4184-56e5-4cfb-ae13-7abe9007298b"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+    Value: Arriérés et saisie des dossiers
   Versions:
   - Version: 1
     Fields:
@@ -220,7 +220,7 @@ Languages:
     Value: "1e2716c6-0d7c-4d21-ba73-b64e77f96024"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Conception de salle à manger bien faite Meubles modernes pour le cœur de votre maison
+    Value: Arriérés et saisie des dossiers
   Versions:
   - Version: 1
     Fields:

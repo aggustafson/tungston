@@ -2,7 +2,7 @@
 ID: "baa0704b-c6b1-41fc-9fc5-01c79ff5ddc4"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Handmade pieces that took time to make"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Data stewardship craft"
 SharedFields:
 - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
   Hint: Author
@@ -59,7 +59,7 @@ Languages:
     Value: "76206135-8c03-438f-bcd5-e573e7eeef1a"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Handmade pieces that took time to make
+    Value: Data stewardship craft
   Versions:
   - Version: 1
     Fields:
@@ -124,7 +124,7 @@ Languages:
     Value: "6b55b81c-22ac-4798-b07d-88efaedfebcd"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Piezas hechas a mano que tomaron tiempo para hacer
+    Value: Oficio de gobernanza de datos
   Versions:
   - Version: 1
     Fields:
@@ -283,7 +283,7 @@ Languages:
     Value: "3248aa53-ff1e-4e29-892b-96d2f78fc843"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Pièces faites à la main qui ont pris du temps à réaliser
+    Value: Savoir-faire de la gouvernance des données
   Versions:
   - Version: 1
     Fields:

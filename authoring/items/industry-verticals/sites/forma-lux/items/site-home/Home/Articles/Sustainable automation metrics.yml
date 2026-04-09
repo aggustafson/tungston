@@ -2,7 +2,7 @@
 ID: "6c66e9e0-8dfd-4a25-bddf-38030cc0a7f1"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Sustainable Style"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Sustainable automation metrics"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "bec2dd1c-9157-49cd-b781-b8947e86ce68"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
+    Value: Sustainable automation metrics
   Versions:
   - Version: 1
     Fields:
@@ -87,7 +87,7 @@ Languages:
     Value: "6f054f17-1b89-4ab0-9631-5f17eb0e6b70"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Estilo Sostenible: Muebles Modernos que son Buenos para el Planeta"
+    Value: Métricas sostenibles de automatización
   Versions:
   - Version: 1
     Fields:
@@ -150,7 +150,7 @@ Languages:
     Value: "5068a090-ae40-4ea3-9409-ba06ff7994e4"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Style durable : Meubles modernes qui sont bons pour la planète"
+    Value: Métriques durables d'automatisation
   Versions:
   - Version: 1
     Fields:
@@ -213,7 +213,7 @@ Languages:
     Value: "a2ac0514-761c-4c95-8db0-5770fb8e74ce"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Style durable : Mobilier moderne qui est bon pour la planète"
+    Value: Métriques durables d'automatisation
   Versions:
   - Version: 1
     Fields:

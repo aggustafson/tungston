@@ -13,16 +13,27 @@ const SEARCH_CONFIG = {
   apiKey: process.env.NEXT_PUBLIC_SEARCH_API_KEY,
 };
 
+/** Sitecore Search WidgetsProvider requires a discover domain id; omit provider if Search is not fully configured. */
+const DISCOVER_DOMAIN_ID = process.env.NEXT_PUBLIC_DISCOVER_DOMAIN_ID;
+const isSearchWidgetsConfigured = Boolean(
+  SEARCH_CONFIG.env && SEARCH_CONFIG.customerKey && SEARCH_CONFIG.apiKey && DISCOVER_DOMAIN_ID
+);
+
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
-  const lang = pageProps.page?.locale || scConfig.defaultLanguage;
+  const lang = pageProps.page?.locale || scConfig.defaultLanguage || 'en';
 
   PageController.getContext().setLocaleLanguage(lang.split('-')[0]);
   if (lang == 'en') {
     PageController.getContext().setLocaleCountry('us');
   } else {
-    PageController.getContext().setLocaleCountry(lang.split('-')[1].toLocaleLowerCase());
+    const region = lang.split('-')[1];
+    if (region) {
+      PageController.getContext().setLocaleCountry(region.toLowerCase());
+    }
   }
+
+  const pageContent = <Component {...rest} />;
 
   return (
     <>
@@ -36,14 +47,19 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
         lngDict={dictionary}
         locale={pageProps.page?.locale || scConfig.defaultLanguage}
       >
-        <WidgetsProvider
-          env={SEARCH_CONFIG.env as Environment}
-          customerKey={SEARCH_CONFIG.customerKey}
-          apiKey={SEARCH_CONFIG.apiKey}
-          publicSuffix={true}
-        >
-          <Component {...rest} />
-        </WidgetsProvider>
+        {isSearchWidgetsConfigured ? (
+          <WidgetsProvider
+            env={SEARCH_CONFIG.env as Environment}
+            customerKey={SEARCH_CONFIG.customerKey}
+            apiKey={SEARCH_CONFIG.apiKey}
+            discoverDomainId={DISCOVER_DOMAIN_ID}
+            publicSuffix={true}
+          >
+            {pageContent}
+          </WidgetsProvider>
+        ) : (
+          pageContent
+        )}
       </I18nProvider>
     </>
   );

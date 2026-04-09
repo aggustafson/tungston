@@ -2,7 +2,7 @@
 ID: "aeef3a7c-6f36-4d86-8629-4ea57a0c7656"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Heart of the Room"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Operations orchestration hub"
 SharedFields:
 - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
   Hint: Author
@@ -59,7 +59,7 @@ Languages:
     Value: "253781cd-6b75-4769-954f-ea6d6d7cda64"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "The Heart of the Room: Fireplace & Lounge"
+    Value: Operations orchestration hub
   Versions:
   - Version: 1
     Fields:
@@ -123,7 +123,7 @@ Languages:
     Value: "dc0a9b5c-7d68-466f-923c-f0afde935ab9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "El Corazón de la Habitación: Chimenea y Salón"
+    Value: Hub de orquestación de operaciones
   Versions:
   - Version: 1
     Fields:
@@ -222,7 +222,7 @@ Languages:
     Value: "2cd0c727-88b5-4441-859f-0a73e5e6b150"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Le cœur de la pièce : Foyer & Salon"
+    Value: Hub d'orchestration des opérations
   Versions:
   - Version: 1
     Fields:
@@ -286,7 +286,7 @@ Languages:
     Value: "bf5190d0-ce1e-42d2-a3bf-1bc00933068e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Le Cœur de la Pièce : Cheminée & Salon"
+    Value: Hub d'orchestration des opérations
   Versions:
   - Version: 1
     Fields:

@@ -2,7 +2,7 @@
 ID: "c4b5cf5a-58d4-4da3-827b-3c45059c7c2f"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/From Blank Slate to Bold Space How to Kick Off Your Modern Living Room Makeover"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Agentic automation patterns"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "64ea9541-d78d-40d3-97d8-cdb569a76f1f"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: From Blank Slate to Bold Space How to Kick Off Your Modern Living Room Makeover
+    Value: Agentic automation patterns
   Versions:
   - Version: 1
     Fields:
@@ -89,7 +89,7 @@ Languages:
     Value: "16bb9223-384f-4a9f-aab0-57517d710fa6"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: De Lienzo en Blanco a Espacio Audaz Cómo Iniciar la Transformación de Tu Sala de Estar Moderna
+    Value: Patrones de automatización agéntica
   Versions:
   - Version: 1
     Fields:
@@ -154,7 +154,7 @@ Languages:
     Value: "c3cf2709-520b-43a4-82d6-b1b03f4fc076"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: De l'ardoise vierge à l'espace audacieux Comment démarrer la transformation de votre salon moderne
+    Value: Modèles d'automatisation agentique
   Versions:
   - Version: 1
     Fields:
@@ -219,7 +219,7 @@ Languages:
     Value: "21ea6baf-0715-4a40-a8f1-91e096b2acb9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: De l'Ardoise Vierge à l'Espace Audacieux Comment Lancer la Rénovation de Votre Salon Moderne
+    Value: Modèles d'automatisation agentique
   Versions:
   - Version: 1
     Fields:

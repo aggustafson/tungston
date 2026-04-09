@@ -2,7 +2,7 @@
 ID: "53dfd979-e868-4b4f-bb9e-366626d11e69"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Exploring new ways of decorating"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Cross-industry automation"
 SharedFields:
 - ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
   Hint: Author
@@ -59,7 +59,7 @@ Languages:
     Value: "39f593d5-4c17-493e-a754-44869cdb391e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Exploring new ways of decorating
+    Value: Cross-industry automation
   Versions:
   - Version: 1
     Fields:
@@ -119,7 +119,7 @@ Languages:
     Value: "59ead7a5-a9be-4e99-8e28-ffd4d903e4fc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Explorando nuevas formas de decorar
+    Value: Automatización entre industrias
   Versions:
   - Version: 1
     Fields:
@@ -208,7 +208,7 @@ Languages:
     Value: "9699a43e-cf45-4146-ba75-972cbc7a1594"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Explorer de nouvelles façons de décorer
+    Value: Automatisation intersectorielle
   Versions:
   - Version: 1
     Fields:
@@ -223,7 +223,7 @@ Languages:
       Value: 20250917T090300Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Explorer de nouvelles façons de décorer
+      Value: Automatisation intersectorielle
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -247,7 +247,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: Explorer de nouvelles façons de décorer
+      Value: Automatisation intersectorielle
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -257,7 +257,7 @@ Languages:
       Value: 20251217T110127Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: Explorer de nouvelles façons de décorer | Journal Forma Lux – Perspectives modernes sur le design d'intérieur
+      Value: Automatisation intersectorielle | Journal Forma Lux – Perspectives modernes sur le design d'intérieur
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: design d'intérieur, décoration moderne, stylisme de meubles, intérieurs contemporains, journal Forma Lux, inspiration design, artisanat, tendances maison
@@ -268,7 +268,7 @@ Languages:
     Value: "179cc75a-fd90-488d-9639-ab2e2ba85ee0"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Explorer de nouvelles façons de décorer
+    Value: Automatisation intersectorielle
   Versions:
   - Version: 1
     Fields:
@@ -283,7 +283,7 @@ Languages:
       Value: 20250917T090300Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Explorer de nouvelles façons de décorer
+      Value: Automatisation intersectorielle
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -307,7 +307,7 @@ Languages:
       Value: AI translated
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: Explorer de nouvelles façons de décorer
+      Value: Automatisation intersectorielle
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -317,7 +317,7 @@ Languages:
       Value: 20251217T104014Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: Explorer de nouvelles façons de décorer | Journal Forma Lux – Perspectives modernes sur le design d'intérieur
+      Value: Automatisation intersectorielle | Journal Forma Lux – Perspectives modernes sur le design d'intérieur
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: design d'intérieur, décoration intérieure moderne, stylisme de meubles, intérieurs contemporains, journal Forma Lux, inspiration design, artisanat d'art, tendances maison

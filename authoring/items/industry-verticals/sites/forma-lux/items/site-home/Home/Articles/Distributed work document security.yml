@@ -2,7 +2,7 @@
 ID: "6917230a-bee4-4ec1-8529-8aab5d6a3b49"
 Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
 Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/The Work-From-Home Upgrade"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Distributed work document security"
 SharedFields:
 - ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
   Hint: ogImage
@@ -27,7 +27,7 @@ Languages:
     Value: "41f8adbc-7a93-429d-a90e-edec0f845c12"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "The Work-From-Home Upgrade: Designing a Modern Home Office That Inspires"
+    Value: Distributed work document security
   Versions:
   - Version: 1
     Fields:
@@ -87,7 +87,7 @@ Languages:
     Value: "9f411986-b2ef-4a43-b8bf-ecde26ab0321"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "La mejora del trabajo desde casa: Diseñando una oficina en casa moderna que inspire"
+    Value: Seguridad documental en trabajo distribuido
   Versions:
   - Version: 1
     Fields:
@@ -150,7 +150,7 @@ Languages:
     Value: "130cbdb7-2be8-4915-8f6c-eb14e28f334e"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+    Value: Sécurité documentaire en travail distribué
   Versions:
   - Version: 1
     Fields:
@@ -213,7 +213,7 @@ Languages:
     Value: "e0f42e48-03e5-4e06-abcd-80bdb03670f3"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "La mise à niveau du télétravail : Concevoir un bureau à domicile moderne qui inspire"
+    Value: Sécurité documentaire en travail distribué
   Versions:
   - Version: 1
     Fields:

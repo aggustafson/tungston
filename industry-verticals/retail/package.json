@@ -3,12 +3,6 @@
   "description": "Application utilizing Content SDK and Next.js",
   "version": "1.0.0",
   "private": true,
-  "config": {
-    "appName": "content-sdk-nextjs",
-    "graphQLEndpointPath": "/sitecore/api/graph/edge",
-    "language": "en",
-    "template": "nextjs"
-  },
   "author": {
     "name": "Sitecore Corporation",
     "url": "https://doc.sitecore.com/xmc/en/developers/content-sdk/index.html"
@@ -75,7 +69,7 @@
     "@vitest/coverage-v8": "^3.2.4",
     "cross-env": "~7.0.3",
     "eslint": "^8.56.0",
-    "eslint-config-next": "^13.1.5",
+    "eslint-config-next": "^15.3.8",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
