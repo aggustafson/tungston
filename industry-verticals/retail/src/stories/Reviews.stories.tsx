@@ -5,13 +5,8 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import { createReviews } from './helpers/createItems';
 import { createTextField } from './helpers/createFields';
 import { expect, userEvent, within } from 'storybook/internal/test';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
-import clsx from 'clsx';
-import { CommonStyles } from '@/types/styleFlags';
-
 type StoryProps = ComponentProps<typeof Reviews> & {
   numberOfReviews: number;
-  hideAccentLine?: boolean;
 };
 
 const meta = {
@@ -31,16 +26,6 @@ const meta = {
         step: 1,
       },
     },
-    hideAccentLine: {
-      name: 'Hide Accent Line',
-      control: {
-        type: 'boolean',
-      },
-      defaultValue: false,
-    },
-  },
-  args: {
-    hideAccentLine: false,
   },
 } satisfies Meta<StoryProps>;
 export default meta;
@@ -64,8 +49,7 @@ export const Default: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: clsx(baseParams.styles, args.hideAccentLine && CommonStyles.HideAccentLine),
+      styles: baseParams.styles,
     };
     return (
       <Reviews
@@ -88,8 +72,7 @@ export const FourItems: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: clsx(baseParams.styles, args.hideAccentLine && CommonStyles.HideAccentLine),
+      styles: baseParams.styles,
     };
     return (
       <Reviews
@@ -113,8 +96,7 @@ export const NavigationButtonsInteractionTest: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: clsx(baseParams.styles, args.hideAccentLine && CommonStyles.HideAccentLine),
+      styles: baseParams.styles,
     };
     return (
       <Reviews

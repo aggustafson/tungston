@@ -5,10 +5,9 @@ import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
 import clsx from 'clsx';
-import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
+import { HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
 type StoryProps = ComponentProps<typeof HeroBanner> & {
-  hideAccentLine?: boolean;
   withPlaceholder?: boolean;
   reverseLayout?: boolean;
   withoutGradientOverlay?: boolean;
@@ -20,13 +19,6 @@ const meta = {
   component: HeroBanner,
   tags: ['autodocs'],
   argTypes: {
-    hideAccentLine: {
-      name: 'Hide Accent Line',
-      control: {
-        type: 'boolean',
-      },
-      defaultValue: false,
-    },
     withoutGradientOverlay: {
       name: 'Without Gradient Overlay',
       control: {
@@ -57,7 +49,6 @@ const meta = {
     },
   },
   args: {
-    hideAccentLine: false,
     withoutGradientOverlay: false,
     reverseLayout: false,
     withPlaceholder: false,
@@ -108,7 +99,6 @@ export const Default: Story = {
       ...baseParams,
       styles: clsx(
         baseParams.styles,
-        args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
         args.screenLayer && HeroBannerStyles.ScreenLayer,
         args.reverseLayout && LayoutStyles.Reversed,
@@ -128,7 +118,6 @@ export const WithTopContent: Story = {
       ...baseParams,
       styles: clsx(
         baseParams.styles,
-        args.hideAccentLine && CommonStyles.HideAccentLine,
         args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
         args.screenLayer && HeroBannerStyles.ScreenLayer,
         args.reverseLayout && LayoutStyles.Reversed,

@@ -11,7 +11,6 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import { createLinkField, createTextField } from './helpers/createFields';
-import { CommonStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
 
 type StoryProps = ComponentProps<typeof SelectedProducts> &
@@ -19,7 +18,6 @@ type StoryProps = ComponentProps<typeof SelectedProducts> &
     numberOfProducts: number;
     autoPlay: boolean;
     loop: boolean;
-    hideAccentLine: boolean;
   };
 
 const meta = {
@@ -43,17 +41,12 @@ const meta = {
       name: 'Loop',
       control: { type: 'boolean' },
     },
-    hideAccentLine: {
-      name: 'Hide Accent Line',
-      control: { type: 'boolean' },
-    },
   },
   args: {
     ...defaultBackgroundColorArgs,
     numberOfProducts: 5,
     autoPlay: true,
     loop: true,
-    hideAccentLine: false,
   },
 } satisfies Meta<StoryProps>;
 
@@ -81,12 +74,7 @@ export const Default: Story = {
           ...baseParams,
           Autoplay: boolToSitecoreCheckbox(args.autoPlay),
           Loop: boolToSitecoreCheckbox(args.loop),
-          HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-          styles: clsx(
-            baseParams.styles,
-            args.BackgroundColor,
-            args.hideAccentLine && CommonStyles.HideAccentLine
-          ),
+          styles: clsx(baseParams.styles, args.BackgroundColor),
         }}
         rendering={{ ...baseRendering, uid }}
         fields={{

@@ -16,7 +16,6 @@ import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@for
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from '@/assets/icons/social/social';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
 import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -161,12 +160,6 @@ const importMap = [
     module: '@/helpers/isParamEnabled',
     exports: [
       { name: 'isParamEnabled', value: isParamEnabled },
-    ]
-  },
-  {
-    module: '@/assets/icons/accent-line/AccentLine',
-    exports: [
-      { name: 'default', value: AccentLine },
     ]
   },
   {

@@ -1,16 +1,16 @@
 .form-input,
 .form-textarea {
-  @apply text-foreground placeholder:text-foreground text-sm;
-  @apply border-foreground/30 border-0 border-b;
-  @apply focus:border-accent group-[.container-dark-background]:focus:border-background-accent group-[.container-dark-background]:focus:placeholder:text-background focus:border-b-2;
-  @apply ring-0 focus:ring-0 focus-visible:outline-none;
+  @apply text-foreground placeholder:text-foreground-light text-sm;
+  @apply border-primary/15 bg-background-surface rounded-sm border border-solid;
+  @apply focus:border-accent focus:ring-accent/20 ring-0 focus:ring-2 focus-visible:outline-none;
+  @apply group-[.container-dark-background]:focus:border-background-accent group-[.container-dark-background]:focus:placeholder:text-background;
   @apply w-full leading-tight transition-colors;
   @apply disabled:cursor-not-allowed disabled:opacity-60;
 }
 
 .form-input {
-  @apply h-10 px-0 md:h-12;
+  @apply h-10 px-3 md:h-12 md:px-4;
 }
 .form-textarea {
-  @apply min-h-10 px-0 py-3;
+  @apply min-h-28 px-3 py-3 md:min-h-32 md:px-4 md:py-4;
 }

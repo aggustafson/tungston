@@ -13,7 +13,7 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import clsx from 'clsx';
-import { CommonStyles, LayoutStyles, PromoFlags } from '@/types/styleFlags';
+import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 type StoryProps = PromoProps &
   BackgroundColorArgs & {
@@ -104,8 +104,7 @@ export const Default: Story = {
       args.Reversed && LayoutStyles.Reversed,
       args.ShowMultipleImages && PromoFlags.ShowMultipleImages,
       args.HideShapes && PromoFlags.HidePromoShapes,
-      args.HideShadows && PromoFlags.HidePromoShadows,
-      args.HideCurveLine && CommonStyles.HideAccentLine
+      args.HideShadows && PromoFlags.HidePromoShadows
     );
 
     const params = {
@@ -149,8 +148,7 @@ export const QuotePromo: Story = {
       baseParams.styles,
       args.BackgroundColor,
       args.Reversed && LayoutStyles.Reversed,
-      args.HideQuote && PromoFlags.HidePromoQuotes,
-      args.HideCurveLine && CommonStyles.HideAccentLine
+      args.HideQuote && PromoFlags.HidePromoQuotes
     );
     const params = {
       ...baseParams,

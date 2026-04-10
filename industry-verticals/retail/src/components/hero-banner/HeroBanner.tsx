@@ -10,8 +10,7 @@ import {
   Link,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
+import { HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
 
 interface Fields {
@@ -84,12 +83,71 @@ const HeroBannerCommon = ({
 };
 
 export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
+  const { page } = useSitecore();
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
+
+  /**
+   * Split layout is the retail default (no CMS style required). Add `classic-full-bleed` to
+   * rendering styles to restore the full-bleed background hero.
+   */
+  const useTungstenSplit = !!fields && !styles.includes(HeroBannerStyles.ClassicFullBleed);
+
+  if (useTungstenSplit) {
+    const isPageEditing = page.mode.isEditing;
+    return (
+      <section
+        className={`component hero-banner ${styles} bg-background`}
+        id={params.RenderingIdentifier}
+      >
+        <div className="container grid items-center gap-10 py-14 md:gap-14 md:py-16 lg:grid-cols-2 lg:gap-16 lg:py-20">
+          <div className={`max-w-xl ${reverseLayout ? 'lg:order-2 lg:justify-self-end' : ''}`}>
+            <h1 className="text-foreground text-4xl leading-[1.1] font-bold tracking-tight md:text-5xl lg:text-[2.75rem] xl:text-6xl">
+              <ContentSdkText field={fields.Title} />
+            </h1>
+            <div className="text-foreground-light [&_strong]:text-accent mt-6 text-lg leading-relaxed md:text-xl">
+              <ContentSdkRichText field={fields.Description} />
+            </div>
+            <div className="mt-8 flex flex-wrap items-center gap-4 max-lg:justify-center lg:justify-start">
+              {withPlaceholder ? (
+                <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
+              ) : (
+                <Link
+                  field={fields.CtaLink}
+                  className="main-btn !w-auto min-w-44 rounded-sm px-10"
+                />
+              )}
+            </div>
+          </div>
+          <div className={`relative flex justify-center ${reverseLayout ? 'lg:order-1' : ''}`}>
+            <div className="relative w-full max-w-2xl overflow-hidden rounded-sm lg:max-w-none">
+              {fields?.Video?.value?.src && !isPageEditing ? (
+                <video
+                  className="h-auto w-full object-contain"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  poster={fields.Image?.value?.src}
+                >
+                  <source src={fields.Video?.value?.src} type="video/webm" />
+                </video>
+              ) : (
+                <ContentSdkImage
+                  field={fields.Image}
+                  className="h-auto w-full object-contain"
+                  priority
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
@@ -104,7 +162,6 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                 {/* Title */}
                 <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
                   <ContentSdkText field={fields.Title} />
-                  {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch] lg:mx-0" />}
                 </h1>
 
                 {/* Description */}
@@ -134,7 +191,6 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
@@ -152,7 +208,6 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
               {/* Title */}
               <h1 className="text-primary text-center text-4xl leading-[1.1] font-bold tracking-tight md:text-6xl md:leading-[1.12] xl:text-7xl">
                 <ContentSdkText field={fields.Title} />
-                {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch]" />}
               </h1>
 
               {/* Description */}

@@ -79,3 +79,84 @@
 .outline-btn {
   @apply border-primary text-primary hover:bg-primary/5 inline-flex items-center justify-center rounded-sm border-2 border-solid bg-transparent px-6 py-2.5 text-sm font-semibold transition-colors md:px-8 md:py-3 md:text-base;
 }
+
+/* Top-of-site announcement (Gartner / maintenance) — matches tungstenautomation.com strip */
+.announcement-strip {
+  background: var(--gradient-announcement);
+  @apply text-white;
+}
+
+.announcement-strip a {
+  @apply bg-primary rounded-sm px-3 py-1 text-xs font-semibold text-white no-underline transition-opacity hover:opacity-90;
+}
+
+/* Navy “capabilities” band */
+.tungsten-navy-section {
+  @apply bg-primary text-white;
+}
+
+.tungsten-navy-section h2,
+.tungsten-navy-section h3 {
+  @apply text-white;
+}
+
+.tungsten-navy-section p {
+  @apply text-white/85;
+}
+
+/* Promo: dark navy panel (capabilities grid) */
+.tungsten-navy-section .eyebrow {
+  @apply text-accent;
+}
+
+.tungsten-navy-section h2 {
+  @apply text-white;
+}
+
+.tungsten-navy-section .rich-text,
+.tungsten-navy-section .ck-content {
+  @apply text-white/90;
+}
+
+.tungsten-navy-section .arrow-btn {
+  @apply hover:border-accent! hover:text-accent! border-white! text-white!;
+}
+
+.tungsten-navy-section .arrow-btn::after {
+  @apply bg-white;
+}
+
+.tungsten-navy-section .arrow-btn:hover::after {
+  @apply bg-accent;
+}
+
+/* Article detail: readable body + links */
+.tungsten-article-body.rich-text a,
+.tungsten-article-body .ck-content a {
+  @apply text-primary decoration-primary/30 hover:decoration-accent font-medium underline underline-offset-2 transition-colors;
+}
+
+.tungsten-article-body.rich-text h3,
+.tungsten-article-body .ck-content h3 {
+  @apply text-foreground mt-10 mb-3 text-xl font-semibold tracking-tight first:mt-0 md:text-2xl;
+}
+
+.tungsten-article-body.rich-text h4,
+.tungsten-article-body .ck-content h4 {
+  @apply text-foreground mt-8 mb-2 text-lg font-semibold;
+}
+
+.tungsten-article-body.rich-text ul,
+.tungsten-article-body .ck-content ul {
+  @apply my-4 list-disc space-y-2 pl-6;
+}
+
+.tungsten-article-body.rich-text ol,
+.tungsten-article-body .ck-content ol {
+  @apply my-4 list-decimal space-y-2 pl-6;
+}
+
+.tungsten-article-body.rich-text blockquote,
+.tungsten-article-body .ck-content blockquote {
+  @apply border-primary/20 text-foreground-light my-6 border-l-4 pl-4 italic;
+}

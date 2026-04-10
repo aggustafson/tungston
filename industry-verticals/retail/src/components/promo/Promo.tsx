@@ -11,9 +11,8 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import clsx from 'clsx';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { Quote } from '@/assets/icons/quote/Quote';
-import { CommonStyles, LayoutStyles, PromoFlags } from '@/types/styleFlags';
+import { LayoutStyles, PromoFlags } from '@/types/styleFlags';
 
 interface Fields {
   PromoImageOne: ImageField;
@@ -40,8 +39,6 @@ export type PromoProps = ComponentProps & {
 const isShadowClassActive = (val: boolean) => (val ? 'shadow-2xl' : '');
 
 export const PromoContent = ({ ...props }) => {
-  const isAccentLineVisible = !props?.params?.styles?.includes(CommonStyles.HideAccentLine);
-
   return (
     <div className="space-y-5">
       <div className="eyebrow">
@@ -50,7 +47,6 @@ export const PromoContent = ({ ...props }) => {
 
       <h2 className="inline-block max-w-md">
         <Text field={props.fields.PromoTitle} />
-        {isAccentLineVisible && <AccentLine className="w-full max-w-xs" />}
       </h2>
 
       <div className="max-w-lg text-lg">
@@ -146,13 +142,17 @@ export const Default = (props: PromoProps): JSX.Element => {
   const showSingleImage = !props?.params?.styles?.includes(PromoFlags.ShowMultipleImages);
   const withShapes = !props?.params?.styles?.includes(PromoFlags.HidePromoShapes);
   const withShadows = !props?.params?.styles?.includes(PromoFlags.HidePromoShadows);
+  const isTungstenDark = props?.params?.styles?.includes(PromoFlags.TungstenDarkPanel) ?? false;
 
   const justifyContentClass = !showSingleImage ? 'justify-self-start' : '';
   const firstColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-7';
   const secondColumnSize = showSingleImage ? 'lg:col-span-6' : 'lg:col-span-5';
 
   return (
-    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
+    <section
+      className={clsx(props.params.styles, 'py-20', isTungstenDark && 'tungsten-navy-section')}
+      id={id ? id : undefined}
+    >
       <div className="container grid grid-cols-1 place-items-center gap-10 lg:grid-cols-12">
         <div className={`${isPromoReversed} col-span-full ${firstColumnSize} relative w-full`}>
           {showSingleImage ? (

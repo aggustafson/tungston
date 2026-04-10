@@ -61,9 +61,9 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
         <meta property="og:type" content="article" />
       </Head>
 
-      <article className={`component article-details ${styles}`} id={id}>
+      <article className={`component article-details tungsten-article ${styles}`} id={id}>
         <div className="container">
-          <div className="grid grid-cols-12 gap-4 py-11">
+          <div className="grid grid-cols-12 gap-4 py-11 md:py-14">
             {/* Social Share */}
             {!hideShareWidget && (
               <SocialShare
@@ -71,24 +71,24 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
                 title={fields?.Title?.value || ''}
                 description={fields?.ShortDescription?.value || ''}
                 mediaUrl={fields?.Image?.value?.src || ''}
-                className="col-span-12 size-fit p-3 shadow-xl md:p-4 lg:col-span-1 lg:flex-col"
+                className="border-border/60 bg-background col-span-12 size-fit rounded-sm border p-3 shadow-sm md:p-4 lg:col-span-1 lg:flex-col"
               />
             )}
 
-            <div className="col-span-12 aspect-video w-full overflow-hidden rounded-lg lg:col-span-10 lg:col-start-2">
+            <div className="border-border/40 col-span-12 aspect-video w-full overflow-hidden rounded-sm border lg:col-span-10 lg:col-start-2">
               <ContentSdkImage field={fields.Image} className="h-full w-full object-cover" />
             </div>
 
             <div className="col-span-12 mt-8 lg:col-span-8 lg:col-start-3">
-              <h2>
+              <h2 className="text-foreground text-3xl font-bold tracking-tight md:text-4xl lg:text-[2.5rem] lg:leading-tight">
                 <ContentSdkText field={fields.Title} />
               </h2>
 
-              <p className="text-foreground-muted mt-5 text-lg font-medium tracking-wide">
+              <p className="text-foreground-light mt-5 text-lg leading-relaxed font-medium md:text-xl">
                 <ContentSdkText field={fields.ShortDescription} />
               </p>
 
-              <div className="rich-text mt-10 text-lg">
+              <div className="rich-text tungsten-article-body mt-10 text-base leading-relaxed md:text-lg">
                 <ContentSdkRichText field={fields.Content} />
               </div>
             </div>

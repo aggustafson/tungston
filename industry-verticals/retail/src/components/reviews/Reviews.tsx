@@ -9,11 +9,9 @@ import {
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ReviewFields } from '@/types/review';
 import CarouselButton from '../non-sitecore/CarouselButton';
 import ReviewCard from '../non-sitecore/ReviewCard';
-import { CommonStyles } from '@/types/styleFlags';
 
 interface ReviewsProps extends ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -35,8 +33,6 @@ export const Default = (props: ReviewsProps) => {
   const sectionEyebrow = props.fields?.Eyebrow || '';
   const styles = `${props.params.styles || ''}`.trim();
   const isPageEditing = page.mode.isEditing;
-  const hideAccentLine = styles?.includes(CommonStyles.HideAccentLine);
-
   return (
     <div className={`${styles}`} id={id}>
       <div className="container py-20">
@@ -45,14 +41,9 @@ export const Default = (props: ReviewsProps) => {
           <p className="eyebrow pb-4">
             <Text field={sectionEyebrow} />
           </p>
-          <div className="flex flex-col items-center justify-center gap-2">
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="section-title">
-              <Text field={sectionTitle} />
-            </h2>
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="accent-line">
-              {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
-            </h2>
-          </div>
+          <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="section-title">
+            <Text field={sectionTitle} />
+          </h2>
         </div>
 
         {/* Slider Section */}

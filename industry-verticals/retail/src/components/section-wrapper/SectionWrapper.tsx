@@ -1,7 +1,7 @@
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ComponentProps } from '@/lib/component-props';
 import { CommonStyles } from '@/types/styleFlags';
 import { Field, Link, LinkField, Placeholder, Text } from '@sitecore-content-sdk/nextjs';
+import clsx from 'clsx';
 
 interface Fields {
   Title: Field<string>;
@@ -14,18 +14,36 @@ interface SectionWrapperProps extends ComponentProps {
 
 export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
   const { styles, RenderingIdentifier: id } = params;
-  const hideAccentLine = styles?.includes(CommonStyles.HideAccentLine);
+  const isTungstenCentered = styles?.includes(CommonStyles.TungstenSectionCentered);
   const placeholderKey = `section-wrapper-content-${params.DynamicPlaceholderId}`;
 
   return (
-    <section className={`component section-wrapper pt-14 pb-10 ${styles}`} id={id}>
-      <div className="container flex flex-col items-center">
-        <h2 className="text-primary text-center md:text-left">
+    <section
+      className={clsx(
+        'component section-wrapper pt-14 pb-10',
+        styles,
+        isTungstenCentered && 'bg-background'
+      )}
+      id={id}
+    >
+      <div
+        className={clsx(
+          'container flex flex-col',
+          isTungstenCentered ? 'items-center text-center' : 'items-center'
+        )}
+      >
+        <h2
+          className={clsx(
+            'max-w-4xl',
+            isTungstenCentered
+              ? 'text-foreground text-center'
+              : 'text-primary text-center md:text-left'
+          )}
+        >
           <Text field={fields.Title} />
-          {!hideAccentLine && <AccentLine className="ml-auto !h-4 w-[8ch]" />}
         </h2>
 
-        <div className="mt-5 mb-12 w-full">
+        <div className={clsx('mt-5 mb-12 w-full', isTungstenCentered && 'max-w-5xl')}>
           <Placeholder name={placeholderKey} rendering={rendering} />
         </div>
 

@@ -4,7 +4,6 @@ import { Default as SectionWrapper } from '../components/section-wrapper/Section
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createTextField } from './helpers/createFields';
-import { boolToSitecoreCheckbox } from './helpers/boolToSitecoreCheckbox';
 import { createProductItems } from './helpers/createItems';
 import { ComponentFields } from '@sitecore-content-sdk/nextjs';
 import {
@@ -13,12 +12,7 @@ import {
   defaultBackgroundColorArgs,
 } from './common/commonControls';
 import clsx from 'clsx';
-import { CommonStyles } from '@/types/styleFlags';
-
-type StoryProps = ComponentProps<typeof SectionWrapper> &
-  BackgroundColorArgs & {
-    hideAccentLine?: boolean;
-  };
+type StoryProps = ComponentProps<typeof SectionWrapper> & BackgroundColorArgs;
 
 const meta = {
   title: 'Page Content/Section Wrapper',
@@ -26,17 +20,9 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     ...backgroundColorArgTypes,
-    hideAccentLine: {
-      name: 'Hide Accent Line',
-      control: {
-        type: 'boolean',
-      },
-      defaultValue: false,
-    },
   },
   args: {
     ...defaultBackgroundColorArgs,
-    hideAccentLine: false,
   },
   parameters: {
     layout: 'fullscreen',
@@ -68,12 +54,7 @@ export const Default: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: clsx(
-        baseParams.styles,
-        args.BackgroundColor,
-        args.hideAccentLine && CommonStyles.HideAccentLine
-      ),
+      styles: clsx(baseParams.styles, args.BackgroundColor),
     };
 
     return <SectionWrapper params={params} fields={baseFields} rendering={baseRendering} />;
@@ -84,12 +65,7 @@ export const WithPlaceholderData: Story = {
   render: (args) => {
     const params = {
       ...baseParams,
-      HideAccentLine: boolToSitecoreCheckbox(args.hideAccentLine),
-      styles: clsx(
-        baseParams.styles,
-        args.BackgroundColor,
-        args.hideAccentLine && CommonStyles.HideAccentLine
-      ),
+      styles: clsx(baseParams.styles, args.BackgroundColor),
     };
     const rendering = {
       ...baseRendering,

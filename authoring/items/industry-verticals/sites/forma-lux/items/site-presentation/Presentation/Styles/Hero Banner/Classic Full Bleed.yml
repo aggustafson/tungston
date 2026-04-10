@@ -1,0 +1,20 @@
+---
+ID: "8e4c2d91-6a3f-4b1e-9c07-4d2e8f5a1b3c"
+Parent: "a8aeaafc-f032-455b-8a57-851374ee1b31"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: "/sitecore/content/industry-verticals/forma-lux/Presentation/Styles/Hero Banner/Classic Full Bleed"
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "classic-full-bleed"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: "{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260408T120000Z

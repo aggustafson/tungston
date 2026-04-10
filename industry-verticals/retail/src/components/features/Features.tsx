@@ -8,8 +8,8 @@ import {
   Text,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { CommonStyles } from '@/types/styleFlags';
+import clsx from 'clsx';
 
 interface Fields {
   data: {
@@ -41,47 +41,92 @@ type FeatureWrapperProps = {
 };
 
 const FeatureWrapper = (wrapperProps: FeatureWrapperProps) => {
-  // rendering item id
   const id = wrapperProps.props.params.RenderingIdentifier;
+  const isTungstenCapabilities = wrapperProps.props.params.styles?.includes(
+    CommonStyles.TungstenDarkCapabilities
+  );
 
   return (
-    <section className={`${wrapperProps.props.params.styles}`} id={id ? id : undefined}>
+    <section
+      className={clsx(
+        wrapperProps.props.params.styles,
+        isTungstenCapabilities && 'tungsten-navy-section'
+      )}
+      id={id ? id : undefined}
+    >
       {wrapperProps.children}
     </section>
   );
 };
 
 export const Default = (props: FeaturesProps) => {
-  // results of the graphql
   const results = props.fields.data.datasource.children.results;
-  const hideAccentLine = props.params.styles?.includes(CommonStyles.HideAccentLine);
+  const isTungstenCapabilities = props.params.styles?.includes(
+    CommonStyles.TungstenDarkCapabilities
+  );
   const featureSectionTitle = props.fields.data.datasource.title;
 
   return (
     <FeatureWrapper props={props}>
-      <div className="container grid grid-cols-1 py-20 lg:grid-cols-[1fr_2fr] lg:gap-10">
-        <div className="mb-20 lg:mb-0">
-          <h2 className="inline-block max-w-md font-bold max-lg:text-[42px]">
+      <div
+        className={clsx(
+          'container grid grid-cols-1',
+          isTungstenCapabilities
+            ? 'gap-12 py-16 lg:grid-cols-12 lg:gap-10 lg:py-20'
+            : 'py-20 lg:grid-cols-[1fr_2fr] lg:gap-10'
+        )}
+      >
+        <div
+          className={clsx(isTungstenCapabilities ? 'mb-12 lg:col-span-5 lg:mb-0' : 'mb-20 lg:mb-0')}
+        >
+          <h2
+            className={clsx(
+              'inline-block max-w-md font-bold max-lg:text-[42px]',
+              isTungstenCapabilities && 'max-w-lg text-white'
+            )}
+          >
             <Text field={featureSectionTitle.jsonValue} />
-            {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
+        <div
+          className={clsx(
+            'grid gap-16 md:gap-8',
+            isTungstenCapabilities
+              ? 'grid-cols-1 md:grid-cols-2 lg:col-span-7 lg:grid-cols-2 lg:gap-6'
+              : 'md:grid-cols-2 lg:grid-cols-3'
+          )}
+        >
           {results.map((item, index) => {
             const title = item.featureTitle.jsonValue;
             const description = item.featureDescription.jsonValue;
             const link = item.featureLink.jsonValue;
             return (
-              <div className="flex flex-col" key={index}>
-                {/* Title, Link and Description */}
-                <div className="mb-5 text-2xl font-bold">
+              <div
+                className={clsx(
+                  'flex flex-col',
+                  isTungstenCapabilities &&
+                    'tungsten-capability-card border-border/60 rounded-sm border bg-white p-6 shadow-sm'
+                )}
+                key={index}
+              >
+                <div
+                  className={clsx(
+                    'mb-5 text-2xl font-bold',
+                    isTungstenCapabilities && 'text-primary text-lg md:text-xl'
+                  )}
+                >
                   <Text field={title} />
                 </div>
-                <div className="text-foreground mb-3.5 flex-auto leading-7">
+                <div
+                  className={clsx(
+                    'text-foreground mb-3.5 flex-auto leading-7',
+                    isTungstenCapabilities && 'text-foreground-light text-base'
+                  )}
+                >
                   <Text field={description} />
                 </div>
                 <div>
-                  <Link field={link} className="arrow-btn" />
+                  <Link field={link} className="arrow-btn text-sm font-semibold" />
                 </div>
               </div>
             );
