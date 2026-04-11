@@ -1,4 +1,5 @@
 import React, { JSX } from 'react';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { ComponentProps } from '@/lib/component-props';
 import { Text, Field, LinkField, Link } from '@sitecore-content-sdk/nextjs';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
@@ -31,7 +32,7 @@ export const Default = (props: RelatedProductsProps): JSX.Element => {
         {/* Product Carousel */}
         <ProductCarousel products={props.fields.ProductsList} autoPlay={autoPlay} loop={loop} />
 
-        <Link field={props.fields.ProductsLink} className="arrow-btn" />
+        <Link field={props.fields.ProductsLink} className={PRIMARY_CTA_CLASS} />
       </div>
     </section>
   );

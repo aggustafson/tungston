@@ -3,6 +3,10 @@
     @apply border-border;
   }
 
+  html {
+    @apply font-body;
+  }
+
   body {
     @apply font-body text-foreground bg-background text-base;
   }
@@ -42,6 +46,13 @@
 
   p {
     @apply font-body text-foreground-light leading-relaxed;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
   }
 
   button:not(:disabled),

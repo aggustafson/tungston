@@ -12,6 +12,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCalendar, faTag } from '@fortawesome/free-solid-svg-icons';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { ComponentProps } from '@/lib/component-props';
 import Link from 'next/link';
 import { useI18n } from 'next-localization';
@@ -164,7 +165,11 @@ export const Default = (props: ArticleListingProps) => {
                 />
 
                 {/* Read More Button */}
-                <Link href={article.url} className="arrow-btn" aria-label="Read full article">
+                <Link
+                  href={article.url}
+                  className={PRIMARY_CTA_CLASS}
+                  aria-label="Read full article"
+                >
                   {t('read_more_btn_text') || 'Read More'}
                 </Link>
               </div>

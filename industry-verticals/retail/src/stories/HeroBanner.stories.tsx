@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { Default as HeroBanner, TopContent } from '../components/hero-banner/HeroBanner';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
-import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
+import { createTextField } from './helpers/createFields';
 import clsx from 'clsx';
 import { HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 
@@ -79,18 +79,32 @@ const baseRendering = {
 const createHeroBannerFields = () => ({
   Image: {
     value: {
-      src: 'https://placehold.co/1920x1080/CCCCCC/FFFFFF?text=Hero+Img',
-      alt: 'Hero Banner Image',
-      width: 1920,
-      height: 1080,
+      src: '/images/hero-home-reference.png',
+      alt: 'Trusted AI-powered automation — product illustration',
+      width: 1200,
+      height: 900,
     },
   },
   Video: {
     value: {},
   },
-  Title: createTextField('Discover Design That Speaks to You'),
-  Description: createRichTextField(1),
-  CtaLink: createLinkField("See what's new"),
+  Title: createTextField('Trusted **AI-powered** automation'),
+  Description: {
+    value: `<div class="ck-content"><p>Purposeful AI, built for your business, making it the right AI for the right job at the right cost. Automation isn't just our middle name, it's been in our DNA for 40 years.</p></div>`,
+  },
+  CtaLink: {
+    value: {
+      linktype: '',
+      id: '',
+      anchor: '',
+      querystring: '',
+      target: '',
+      class: '',
+      text: '',
+      title: '',
+      href: '',
+    },
+  },
 });
 
 export const Default: Story = {

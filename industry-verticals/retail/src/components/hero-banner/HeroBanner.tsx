@@ -9,6 +9,8 @@ import {
   Placeholder,
   Link,
 } from '@sitecore-content-sdk/nextjs';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
+import { parseAccentTitleMarkers } from '@/lib/hero-title';
 import { ComponentProps } from '@/lib/component-props';
 import { HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
@@ -98,35 +100,55 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 
   if (useTungstenSplit) {
     const isPageEditing = page.mode.isEditing;
+    const cta = fields.CtaLink?.value;
+    const href = String(cta?.href ?? '').trim();
+    const ctaText = String(cta?.text ?? '').trim();
+    const hrefIsPlaceholder = !href || href === '#' || href === '/#';
+    const hasCtaConfigured = Boolean(ctaText) || (!hrefIsPlaceholder && Boolean(href));
+    const showCtaRow = withPlaceholder || isPageEditing || hasCtaConfigured;
+
     return (
       <section
-        className={`component hero-banner ${styles} bg-background`}
+        className={`component hero-banner hero-banner--split ${styles} bg-background overflow-x-clip`}
         id={params.RenderingIdentifier}
       >
-        <div className="container grid items-center gap-10 py-14 md:gap-14 md:py-16 lg:grid-cols-2 lg:gap-16 lg:py-20">
-          <div className={`max-w-xl ${reverseLayout ? 'lg:order-2 lg:justify-self-end' : ''}`}>
-            <h1 className="text-foreground text-4xl leading-[1.1] font-bold tracking-tight md:text-5xl lg:text-[2.75rem] xl:text-6xl">
-              <ContentSdkText field={fields.Title} />
+        <div className="container grid items-center gap-12 py-16 md:gap-16 md:py-20 lg:grid-cols-2 lg:gap-x-16 lg:py-20 xl:gap-x-24 xl:py-24">
+          <div
+            className={clsx(
+              'max-w-2xl lg:max-w-none',
+              reverseLayout ? 'lg:order-2 lg:justify-self-end' : ''
+            )}
+          >
+            <h1 className="text-primary text-4xl leading-[1.08] font-extrabold tracking-tight sm:text-5xl lg:text-[2.75rem] lg:leading-[1.06] xl:text-[3.25rem]">
+              {isPageEditing ? (
+                <ContentSdkText field={fields.Title} />
+              ) : (
+                parseAccentTitleMarkers(fields.Title?.value ?? '')
+              )}
             </h1>
-            <div className="text-foreground-light [&_strong]:text-accent mt-6 text-lg leading-relaxed md:text-xl">
+            <div className="text-foreground-light [&_a]:text-accent [&_strong]:text-foreground mt-8 max-w-xl text-lg leading-[1.65] font-light md:text-xl [&_a]:underline [&_p]:my-0 [&_strong]:font-medium">
               <ContentSdkRichText field={fields.Description} />
             </div>
-            <div className="mt-8 flex flex-wrap items-center gap-4 max-lg:justify-center lg:justify-start">
-              {withPlaceholder ? (
-                <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
-              ) : (
-                <Link
-                  field={fields.CtaLink}
-                  className="main-btn !w-auto min-w-44 rounded-sm px-10"
-                />
-              )}
-            </div>
+            {showCtaRow && (
+              <div className="mt-10 flex flex-wrap items-center gap-4 max-lg:justify-center lg:justify-start">
+                {withPlaceholder ? (
+                  <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
+                ) : isPageEditing || hasCtaConfigured ? (
+                  <Link field={fields.CtaLink} className={PRIMARY_CTA_CLASS} />
+                ) : null}
+              </div>
+            )}
           </div>
-          <div className={`relative flex justify-center ${reverseLayout ? 'lg:order-1' : ''}`}>
-            <div className="relative w-full max-w-2xl overflow-hidden rounded-sm lg:max-w-none">
+          <div
+            className={clsx(
+              'relative flex w-full min-w-0 justify-center lg:items-center',
+              reverseLayout ? 'lg:order-1' : 'lg:justify-end'
+            )}
+          >
+            <div className="relative w-full max-w-lg overflow-visible sm:max-w-xl lg:max-w-none lg:flex-1">
               {fields?.Video?.value?.src && !isPageEditing ? (
                 <video
-                  className="h-auto w-full object-contain"
+                  className="h-auto max-h-[min(72vh,560px)] w-full object-contain object-right select-none lg:max-h-[min(85vh,640px)]"
                   autoPlay
                   muted
                   loop
@@ -138,7 +160,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
               ) : (
                 <ContentSdkImage
                   field={fields.Image}
-                  className="h-auto w-full object-contain"
+                  className="h-auto max-h-[min(72vh,560px)] w-full object-contain object-right select-none lg:max-h-[min(85vh,640px)]"
                   priority
                 />
               )}
@@ -160,8 +182,12 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
             <div className="max-w-182">
               <div className={clsx({ shim: screenLayer })}>
                 {/* Title */}
-                <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
-                  <ContentSdkText field={fields.Title} />
+                <h1 className="text-center text-5xl leading-[110%] font-extrabold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
+                  {page.mode.isEditing ? (
+                    <ContentSdkText field={fields.Title} />
+                  ) : (
+                    parseAccentTitleMarkers(fields.Title?.value ?? '')
+                  )}
                 </h1>
 
                 {/* Description */}
@@ -177,7 +203,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
                   {withPlaceholder ? (
                     <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                   ) : (
-                    <Link field={fields.CtaLink} className="arrow-btn" />
+                    <Link field={fields.CtaLink} className={PRIMARY_CTA_CLASS} />
                   )}
                 </div>
               </div>
@@ -190,6 +216,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 };
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
+  const { page } = useSitecore();
   const styles = params.styles || '';
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
@@ -206,8 +233,12 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
           >
             <div className={clsx({ shim: screenLayer })}>
               {/* Title */}
-              <h1 className="text-primary text-center text-4xl leading-[1.1] font-bold tracking-tight md:text-6xl md:leading-[1.12] xl:text-7xl">
-                <ContentSdkText field={fields.Title} />
+              <h1 className="text-primary text-center text-4xl leading-[1.1] font-extrabold tracking-tight md:text-6xl md:leading-[1.12] xl:text-7xl">
+                {page.mode.isEditing ? (
+                  <ContentSdkText field={fields.Title} />
+                ) : (
+                  parseAccentTitleMarkers(fields.Title?.value ?? '')
+                )}
               </h1>
 
               {/* Description */}
@@ -220,7 +251,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
                 {withPlaceholder ? (
                   <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                 ) : (
-                  <Link field={fields.CtaLink} className="arrow-btn" />
+                  <Link field={fields.CtaLink} className={PRIMARY_CTA_CLASS} />
                 )}
               </div>
             </div>

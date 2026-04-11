@@ -9,6 +9,7 @@ import {
   RichTextField,
   Text,
 } from '@sitecore-content-sdk/nextjs';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { ComponentProps } from 'lib/component-props';
 import clsx from 'clsx';
 import { Quote } from '@/assets/icons/quote/Quote';
@@ -53,7 +54,7 @@ export const PromoContent = ({ ...props }) => {
         <ContentSdkRichText field={props.fields.PromoDescription} />
       </div>
 
-      <Link field={props.fields.PromoMoreInfo} className="arrow-btn" />
+      <Link field={props.fields.PromoMoreInfo} className={PRIMARY_CTA_CLASS} />
     </div>
   );
 };

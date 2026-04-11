@@ -53,12 +53,8 @@
       @apply text-inherit;
     }
 
-    .arrow-btn {
-      @apply border-b-background;
-
-      &::after {
-        @apply bg-background;
-      }
+    .main-btn {
+      @apply bg-background text-primary hover:bg-background/92 hover:shadow-md;
     }
   }
 }

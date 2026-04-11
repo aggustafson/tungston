@@ -11,7 +11,9 @@ import QuantityControl from './QuantityControl';
 import { useLocale } from '@/hooks/useLocaleOptions';
 import { Heart, X } from 'lucide-react';
 import { useCartAction } from '@/hooks/useCartAction';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { PopoverClose } from '@radix-ui/react-popover';
+import { cn } from '@/shadcn/lib/utils';
 
 export const MiniCart = ({
   showWishlist,
@@ -136,7 +138,7 @@ export const MiniCart = ({
           </span>
         </p>
         <PopoverClose asChild>
-          <Link field={checkoutPage} className="main-btn" />
+          <Link field={checkoutPage} className={cn(PRIMARY_CTA_CLASS, '!w-full')} />
         </PopoverClose>
       </div>
     </div>

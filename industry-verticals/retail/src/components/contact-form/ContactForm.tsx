@@ -3,7 +3,9 @@
 import React from 'react';
 import { useI18n } from 'next-localization';
 import type { JSX } from 'react';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import type { ComponentProps } from '@/lib/component-props';
+import { cn } from '@/shadcn/lib/utils';
 import { Text, type TextField } from '@sitecore-content-sdk/nextjs';
 
 export type ContactFormProps = ComponentProps & {
@@ -108,7 +110,10 @@ export default function ContactForm(props: ContactFormProps): JSX.Element {
           <div className="mt-2 text-center md:mt-4 md:text-left">
             <button
               type="submit"
-              className="main-btn inline-flex w-full max-w-xs cursor-pointer md:w-auto md:min-w-48"
+              className={cn(
+                PRIMARY_CTA_CLASS,
+                'inline-flex !w-full max-w-xs cursor-pointer md:!w-auto md:min-w-48'
+              )}
             >
               <Text field={SubmitText} />
             </button>

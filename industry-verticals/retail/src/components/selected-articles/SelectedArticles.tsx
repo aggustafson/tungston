@@ -1,5 +1,6 @@
 'use client';
 
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { ComponentProps } from '@/lib/component-props';
 import {
   Field,
@@ -86,7 +87,7 @@ export const Default = (props: CarouselProps) => {
               <ContentSdkRichText field={props.fields.Description} />
             </div>
 
-            <ContentSskLink field={props.fields.ExploreLink} className="arrow-btn" />
+            <ContentSskLink field={props.fields.ExploreLink} className={PRIMARY_CTA_CLASS} />
           </div>
 
           <div className={cn('w-full', 'md:w-2/3', 'lg:transform', translateClass)}>

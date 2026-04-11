@@ -1,3 +1,4 @@
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import { IGQLTextField } from '@/types/igql';
 import {
@@ -126,7 +127,7 @@ export const Default = (props: FeaturesProps) => {
                   <Text field={description} />
                 </div>
                 <div>
-                  <Link field={link} className="arrow-btn text-sm font-semibold" />
+                  <Link field={link} className={PRIMARY_CTA_CLASS} />
                 </div>
               </div>
             );

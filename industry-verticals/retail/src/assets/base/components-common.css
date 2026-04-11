@@ -118,18 +118,6 @@
   @apply text-white/90;
 }
 
-.tungsten-navy-section .arrow-btn {
-  @apply hover:border-accent! hover:text-accent! border-white! text-white!;
-}
-
-.tungsten-navy-section .arrow-btn::after {
-  @apply bg-white;
-}
-
-.tungsten-navy-section .arrow-btn:hover::after {
-  @apply bg-accent;
-}
-
 /* Article detail: readable body + links */
 .tungsten-article-body.rich-text a,
 .tungsten-article-body .ck-content a {

@@ -1,3 +1,4 @@
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { ComponentProps } from '@/lib/component-props';
 import { CommonStyles } from '@/types/styleFlags';
 import { Field, Link, LinkField, Placeholder, Text } from '@sitecore-content-sdk/nextjs';
@@ -47,7 +48,7 @@ export const Default = ({ params, fields, rendering }: SectionWrapperProps) => {
           <Placeholder name={placeholderKey} rendering={rendering} />
         </div>
 
-        <Link field={fields.Link} className="arrow-btn" />
+        <Link field={fields.Link} className={PRIMARY_CTA_CLASS} />
       </div>
     </section>
   );

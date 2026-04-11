@@ -15,21 +15,22 @@ import { useI18n } from 'next-localization';
 import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from '@/assets/icons/social/social';
+import { PRIMARY_CTA_CLASS } from '@/lib/cta-classes';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import ProductCarousel from 'src/components/non-sitecore/ProductCarousel';
-import { CommonStyles, LayoutStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation, A11y, Keyboard } from 'swiper/modules';
 import { ArrowRight, ChevronLeft, ChevronRight, ChevronDown, Heart, Plus, Star, User, X, Check, Loader2, LoaderCircle, ShoppingCart, Search, Globe, MoreHorizontal, Home } from 'lucide-react';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { cn } from '@/shadcn/lib/utils';
+import { LayoutStyles, CommonStyles, PromoFlags, HeroBannerStyles } from '@/types/styleFlags';
+import clsx from 'clsx';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import QuestionsAnswers from 'src/components/non-sitecore/search/QuestionsAnswers';
 import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResultsComponent';
 import { SEARCH_WIDGET_ID, HIGHLIGHTED_ARTICLES_RFKID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
-import clsx from 'clsx';
 import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
@@ -81,6 +82,7 @@ import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields 
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
 import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
+import { parseAccentTitleMarkers } from '@/lib/hero-title';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import client from 'lib/sitecore-client';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
@@ -157,6 +159,12 @@ const importMap = [
     ]
   },
   {
+    module: '@/lib/cta-classes',
+    exports: [
+      { name: 'PRIMARY_CTA_CLASS', value: PRIMARY_CTA_CLASS },
+    ]
+  },
+  {
     module: '@/helpers/isParamEnabled',
     exports: [
       { name: 'isParamEnabled', value: isParamEnabled },
@@ -166,15 +174,6 @@ const importMap = [
     module: 'src/components/non-sitecore/ProductCarousel',
     exports: [
       { name: 'default', value: ProductCarousel },
-    ]
-  },
-  {
-    module: '@/types/styleFlags',
-    exports: [
-      { name: 'CommonStyles', value: CommonStyles },
-      { name: 'LayoutStyles', value: LayoutStyles },
-      { name: 'PromoFlags', value: PromoFlags },
-      { name: 'HeroBannerStyles', value: HeroBannerStyles },
     ]
   },
   {
@@ -229,6 +228,21 @@ const importMap = [
     ]
   },
   {
+    module: '@/types/styleFlags',
+    exports: [
+      { name: 'LayoutStyles', value: LayoutStyles },
+      { name: 'CommonStyles', value: CommonStyles },
+      { name: 'PromoFlags', value: PromoFlags },
+      { name: 'HeroBannerStyles', value: HeroBannerStyles },
+    ]
+  },
+  {
+    module: 'clsx',
+    exports: [
+      { name: 'default', value: clsx },
+    ]
+  },
+  {
     module: 'next/navigation',
     exports: [
       { name: 'useSearchParams', value: useSearchParams },
@@ -268,12 +282,6 @@ const importMap = [
     module: 'src/components/non-sitecore/ReviewCard',
     exports: [
       { name: 'default', value: ReviewCard },
-    ]
-  },
-  {
-    module: 'clsx',
-    exports: [
-      { name: 'default', value: clsx },
     ]
   },
   {
@@ -624,6 +632,12 @@ const importMap = [
     module: '@/constants/localeOptions',
     exports: [
       { name: 'localeOptions', value: localeOptions },
+    ]
+  },
+  {
+    module: '@/lib/hero-title',
+    exports: [
+      { name: 'parseAccentTitleMarkers', value: parseAccentTitleMarkers },
     ]
   },
   {
